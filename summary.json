@@ -1,0 +1,152 @@
+{
+  "modes": {
+    "baseline": {
+      "csr": {
+        "mean": 0.45370370370370366,
+        "ci_lo": 0.3055555555555556,
+        "ci_hi": 0.6064814814814815,
+        "n": 36
+      },
+      "coverage": 1.0,
+      "citation_precision": 1.0,
+      "trust_tax": {
+        "mean_latency_s": 1.5124447345733643,
+        "mean_input_tokens": 823.3272727272728,
+        "mean_output_tokens": 78.78181818181818,
+        "mean_calls": 1.0,
+        "total_tokens": 49616
+      },
+      "hard_cases": {
+        "hard_01_numeric": {
+          "csr": null,
+          "abstained": false,
+          "n_citations": 0
+        },
+        "hard_02_negation": {
+          "csr": null,
+          "abstained": false,
+          "n_citations": 0
+        },
+        "hard_03_entity_collision": {
+          "csr": null,
+          "abstained": false,
+          "n_citations": 0
+        },
+        "hard_04_temporal": {
+          "csr": null,
+          "abstained": false,
+          "n_citations": 0
+        },
+        "hard_05_aggregation": {
+          "csr": null,
+          "abstained": false,
+          "n_citations": 0
+        }
+      }
+    },
+    "cove": {
+      "csr": {
+        "mean": 0.4362745098039215,
+        "ci_lo": 0.2892156862745098,
+        "ci_hi": 0.5882352941176471,
+        "n": 34
+      },
+      "coverage": 0.8545454545454545,
+      "citation_precision": 1.0,
+      "trust_tax": {
+        "mean_latency_s": 6.508489396355369,
+        "mean_input_tokens": 1676.7636363636364,
+        "mean_output_tokens": 381.45454545454544,
+        "mean_calls": 5.7272727272727275,
+        "total_tokens": 113202
+      },
+      "hard_cases": {
+        "hard_01_numeric": {
+          "csr": null,
+          "abstained": true,
+          "n_citations": 0
+        },
+        "hard_02_negation": {
+          "csr": null,
+          "abstained": true,
+          "n_citations": 0
+        },
+        "hard_03_entity_collision": {
+          "csr": null,
+          "abstained": false,
+          "n_citations": 0
+        },
+        "hard_04_temporal": {
+          "csr": null,
+          "abstained": true,
+          "n_citations": 0
+        },
+        "hard_05_aggregation": {
+          "csr": null,
+          "abstained": true,
+          "n_citations": 0
+        }
+      }
+    },
+    "quote": {
+      "csr": {
+        "mean": 0.6133333333333333,
+        "ci_lo": 0.43983333333333346,
+        "ci_hi": 0.78,
+        "n": 25
+      },
+      "coverage": 0.5636363636363637,
+      "citation_precision": 1.0,
+      "trust_tax": {
+        "mean_latency_s": 2.4804254921999846,
+        "mean_input_tokens": 1767.1636363636364,
+        "mean_output_tokens": 137.83636363636364,
+        "mean_calls": 2.0,
+        "total_tokens": 104775
+      },
+      "hard_cases": {
+        "hard_01_numeric": {
+          "csr": null,
+          "abstained": true,
+          "n_citations": 0
+        },
+        "hard_02_negation": {
+          "csr": null,
+          "abstained": true,
+          "n_citations": 0
+        },
+        "hard_03_entity_collision": {
+          "csr": null,
+          "abstained": true,
+          "n_citations": 0
+        },
+        "hard_04_temporal": {
+          "csr": null,
+          "abstained": true,
+          "n_citations": 0
+        },
+        "hard_05_aggregation": {
+          "csr": null,
+          "abstained": true,
+          "n_citations": 0
+        }
+      }
+    }
+  },
+  "paired_vs_baseline": {
+    "cove": {
+      "mean_diff": 0.015151515151515159,
+      "ci_lo": -0.1515151515151515,
+      "ci_hi": 0.1767676767676768,
+      "p_one_sided": 0.4224,
+      "n": 33
+    },
+    "quote": {
+      "mean_diff": 0.13333333333333336,
+      "ci_lo": 0.020000000000000007,
+      "ci_hi": 0.26,
+      "p_one_sided": 0.0077,
+      "n": 25
+    }
+  }
+}

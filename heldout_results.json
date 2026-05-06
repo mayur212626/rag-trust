@@ -1,0 +1,2052 @@
+[
+  {
+    "qid": "ho_000",
+    "question": "Which film was Oscar nominated, LaLee's Kin: The Legacy of Cotton or Gimme Shelter, the 1970 Rolling Stones documentary?",
+    "hard_case": false,
+    "gold_answer": "LaLee's Kin: The Legacy of Cotton",
+    "modes": {
+      "baseline": {
+        "result": {
+          "question": "Which film was Oscar nominated, LaLee's Kin: The Legacy of Cotton or Gimme Shelter, the 1970 Rolling Stones documentary?",
+          "retrieved": [
+            {
+              "doc_id": "LaLee's_Kin:_The_Legacy_of_Cotton",
+              "text": "LaLee's Kin: The Legacy of Cotton is a 2001 American documentary film directed by Deborah Dickson, Susan Fr\u00f6mke and Albert Maysles.  It was nominated for Best Documentary Feature at the 74th Academy Awards."
+            },
+            {
+              "doc_id": "Gimme_Shelter_(1970_film)",
+              "text": "Gimme Shelter is a 1970 documentary film directed by Albert and David Maysles and Charlotte Zwerin chronicling the last weeks of The Rolling Stones' 1969 US tour which culminated in the disastrous Altamont Free Concert.  The film is named after \"Gimme Shelter\", the lead track from the group's 1969 album \"Let It Bleed\".  The film was screened at the 1971 Cannes Film Festival, but was not entered into the main competition."
+            },
+            {
+              "doc_id": "Altamont_Diary",
+              "text": "Alamont Diary is the debut album by Melbourne electronica band Black Cab.  Released in 2004, it is a concept album based on the ill-fated 1969 free concert at Altamont Speedway in California headlined by the Rolling Stones.  The album, whose genre is described a psych-country, features audio samples of former Stones tour manager Sam Cutler, taken from the 1970 documentary film \"Gimme Shelter\"."
+            },
+            {
+              "doc_id": "Merry_Clayton",
+              "text": "Merry Clayton (born December 25, 1948) is an American soul and gospel singer and an actress.  She provided a number of backing vocal tracks for major performing artists in the 1960s, most notably in her duet with Mick Jagger on the Rolling Stones song \"Gimme Shelter.\"  Clayton is featured in \"20 Feet from Stardom\", the Oscar-winning documentary about background singers and their contributions to the music industry.  In 2013, she released \"The Best of Merry Clayton\", a compilation of her favorite songs."
+            },
+            {
+              "doc_id": "Gimme_Shelter_(disambiguation)",
+              "text": "\"Gimme Shelter\" is a song by The Rolling Stones."
+            }
+          ],
+          "answer": "LaLee's Kin: The Legacy of Cotton was Oscar nominated. It was nominated for Best Documentary Feature at the 74th Academy Awards. [LaLee's_Kin:_The_Legacy_of_Cotton]\n\nGimme Shelter, the 1970 Rolling Stones documentary, was screened at the 1971 Cannes Film Festival, but was not entered into the main competition. [Gimme_Shelter_(1970_film)] There is no indication in the provided sources that it received an Oscar nomination.",
+          "citations": [],
+          "abstained": false,
+          "latency_s": 1.463399887084961,
+          "usage": {
+            "input_tokens": 637,
+            "output_tokens": 122,
+            "n_calls": 1
+          },
+          "intermediate": {}
+        },
+        "score": {
+          "csr": null,
+          "citation_precision": null,
+          "abstained": false,
+          "n_citations": 0,
+          "verdicts": []
+        }
+      },
+      "cove": {
+        "result": {
+          "question": "Which film was Oscar nominated, LaLee's Kin: The Legacy of Cotton or Gimme Shelter, the 1970 Rolling Stones documentary?",
+          "retrieved": [
+            {
+              "doc_id": "LaLee's_Kin:_The_Legacy_of_Cotton",
+              "text": "LaLee's Kin: The Legacy of Cotton is a 2001 American documentary film directed by Deborah Dickson, Susan Fr\u00f6mke and Albert Maysles.  It was nominated for Best Documentary Feature at the 74th Academy Awards."
+            },
+            {
+              "doc_id": "Gimme_Shelter_(1970_film)",
+              "text": "Gimme Shelter is a 1970 documentary film directed by Albert and David Maysles and Charlotte Zwerin chronicling the last weeks of The Rolling Stones' 1969 US tour which culminated in the disastrous Altamont Free Concert.  The film is named after \"Gimme Shelter\", the lead track from the group's 1969 album \"Let It Bleed\".  The film was screened at the 1971 Cannes Film Festival, but was not entered into the main competition."
+            },
+            {
+              "doc_id": "Altamont_Diary",
+              "text": "Alamont Diary is the debut album by Melbourne electronica band Black Cab.  Released in 2004, it is a concept album based on the ill-fated 1969 free concert at Altamont Speedway in California headlined by the Rolling Stones.  The album, whose genre is described a psych-country, features audio samples of former Stones tour manager Sam Cutler, taken from the 1970 documentary film \"Gimme Shelter\"."
+            },
+            {
+              "doc_id": "Merry_Clayton",
+              "text": "Merry Clayton (born December 25, 1948) is an American soul and gospel singer and an actress.  She provided a number of backing vocal tracks for major performing artists in the 1960s, most notably in her duet with Mick Jagger on the Rolling Stones song \"Gimme Shelter.\"  Clayton is featured in \"20 Feet from Stardom\", the Oscar-winning documentary about background singers and their contributions to the music industry.  In 2013, she released \"The Best of Merry Clayton\", a compilation of her favorite songs."
+            },
+            {
+              "doc_id": "Gimme_Shelter_(disambiguation)",
+              "text": "\"Gimme Shelter\" is a song by The Rolling Stones."
+            }
+          ],
+          "answer": "LaLee's Kin: The Legacy of Cotton was Oscar nominated [LaLee's_Kin:_The_Legacy_of_Cotton]. Specifically, it was nominated for Best Documentary Feature at the 74th Academy Awards [LaLee's_Kin:_The_Legacy_of_Cotton].\n\nBased on the provided sources, there is no information indicating that Gimme Shelter, the 1970 Rolling Stones documentary [Gimme_Shelter_(1970_film)], received an Oscar nomination.",
+          "citations": [],
+          "abstained": false,
+          "latency_s": 8.499700784683228,
+          "usage": {
+            "input_tokens": 2368,
+            "output_tokens": 754,
+            "n_calls": 9
+          },
+          "intermediate": {
+            "draft": "LaLee's Kin: The Legacy of Cotton was Oscar nominated. It was nominated for Best Documentary Feature at the 74th Academy Awards [LaLee's_Kin:_The_Legacy_of_Cotton].\n\nGimme Shelter, the 1970 Rolling Stones documentary, was not Oscar nominated. While it was screened at the 1971 Cannes Film Festival, it was not entered into the main competition [Gimme_Shelter_(1970_film)].",
+            "verifications": [
+              {
+                "claim": "LaLee's Kin: The Legacy of Cotton was Oscar nominated",
+                "cited": [
+                  "LaLee's_Kin:_The_Legacy_of_Cotton"
+                ],
+                "raw": "SUPPORTED\n\n\"It was nominated for Best Documentary Feature at the 74th Academy Awards.\""
+              },
+              {
+                "claim": "LaLee's Kin: The Legacy of Cotton was nominated for Best Documentary Feature at the 74th Academy Awards",
+                "cited": [
+                  "LaLee's_Kin:_The_Legacy_of_Cotton"
+                ],
+                "raw": "SUPPORTED\n\n\"It was nominated for Best Documentary Feature at the 74th Academy Awards.\""
+              },
+              {
+                "claim": "Gimme Shelter is a 1970 Rolling Stones documentary",
+                "cited": [
+                  "Gimme_Shelter_(1970_film)"
+                ],
+                "raw": "SUPPORTED\n\n\"Gimme Shelter is a 1970 documentary film directed by Albert and David Maysles and Charlotte Zwerin chronicling the last weeks of The Rolling Stones' 1969 US tour\""
+              },
+              {
+                "claim": "Gimme Shelter was not Oscar nominated",
+                "cited": [
+                  "Gimme_Shelter_(1970_film)"
+                ],
+                "raw": "NOT_SUPPORTED\n\nThe cited evidence does not mention Oscar nominations at all, only Cannes Film Festival screening information."
+              },
+              {
+                "claim": "Gimme Shelter was screened at the 1971 Cannes Film Festival",
+                "cited": [
+                  "Gimme_Shelter_(1970_film)"
+                ],
+                "raw": "SUPPORTED\n\"The film was screened at the 1971 Cannes Film Festival, but was not entered into the main competition.\""
+              },
+              {
+                "claim": "Gimme Shelter was not entered into the main competition at the 1971 Cannes Film Festival",
+                "cited": [
+                  "Gimme_Shelter_(1970_film)"
+                ],
+                "raw": "SUPPORTED\n\n\"The film was screened at the 1971 Cannes Film Festival, but was not entered into the main competition.\""
+              }
+            ]
+          }
+        },
+        "score": {
+          "csr": null,
+          "citation_precision": null,
+          "abstained": false,
+          "n_citations": 0,
+          "verdicts": []
+        }
+      },
+      "quote": {
+        "result": {
+          "question": "Which film was Oscar nominated, LaLee's Kin: The Legacy of Cotton or Gimme Shelter, the 1970 Rolling Stones documentary?",
+          "retrieved": [
+            {
+              "doc_id": "LaLee's_Kin:_The_Legacy_of_Cotton",
+              "text": "LaLee's Kin: The Legacy of Cotton is a 2001 American documentary film directed by Deborah Dickson, Susan Fr\u00f6mke and Albert Maysles.  It was nominated for Best Documentary Feature at the 74th Academy Awards."
+            },
+            {
+              "doc_id": "Gimme_Shelter_(1970_film)",
+              "text": "Gimme Shelter is a 1970 documentary film directed by Albert and David Maysles and Charlotte Zwerin chronicling the last weeks of The Rolling Stones' 1969 US tour which culminated in the disastrous Altamont Free Concert.  The film is named after \"Gimme Shelter\", the lead track from the group's 1969 album \"Let It Bleed\".  The film was screened at the 1971 Cannes Film Festival, but was not entered into the main competition."
+            },
+            {
+              "doc_id": "Altamont_Diary",
+              "text": "Alamont Diary is the debut album by Melbourne electronica band Black Cab.  Released in 2004, it is a concept album based on the ill-fated 1969 free concert at Altamont Speedway in California headlined by the Rolling Stones.  The album, whose genre is described a psych-country, features audio samples of former Stones tour manager Sam Cutler, taken from the 1970 documentary film \"Gimme Shelter\"."
+            },
+            {
+              "doc_id": "Merry_Clayton",
+              "text": "Merry Clayton (born December 25, 1948) is an American soul and gospel singer and an actress.  She provided a number of backing vocal tracks for major performing artists in the 1960s, most notably in her duet with Mick Jagger on the Rolling Stones song \"Gimme Shelter.\"  Clayton is featured in \"20 Feet from Stardom\", the Oscar-winning documentary about background singers and their contributions to the music industry.  In 2013, she released \"The Best of Merry Clayton\", a compilation of her favorite songs."
+            },
+            {
+              "doc_id": "Gimme_Shelter_(disambiguation)",
+              "text": "\"Gimme Shelter\" is a song by The Rolling Stones."
+            }
+          ],
+          "answer": "LaLee's Kin: The Legacy of Cotton was Oscar nominated. It was nominated for Best Documentary Feature at the 74th Academy Awards [LaLee's_Kin:_The_Legacy_of_Cotton].\n\nGimme Shelter, the 1970 Rolling Stones documentary, was screened at the 1971 Cannes Film Festival but was not entered into the main competition [Gimme_Shelter_(1970_film)].",
+          "citations": [],
+          "abstained": false,
+          "latency_s": 2.1480376720428467,
+          "usage": {
+            "input_tokens": 1421,
+            "output_tokens": 225,
+            "n_calls": 2
+          },
+          "intermediate": {
+            "draft": "LaLee's Kin: The Legacy of Cotton was Oscar nominated. It was nominated for Best Documentary Feature at the 74th Academy Awards [LaLee's_Kin:_The_Legacy_of_Cotton].\n\nGimme Shelter, the 1970 Rolling Stones documentary, was screened at the 1971 Cannes Film Festival but was not entered into the main competition [Gimme_Shelter_(1970_film)]. There is no mention in the provided sources of it receiving an Oscar nomination."
+          }
+        },
+        "score": {
+          "csr": null,
+          "citation_precision": null,
+          "abstained": false,
+          "n_citations": 0,
+          "verdicts": []
+        }
+      }
+    }
+  },
+  {
+    "qid": "ho_001",
+    "question": "What is the name of the Isles who were led by Aonghus M\u00f3r and covered a total land area of over 8300 km2?",
+    "hard_case": false,
+    "gold_answer": "Kingdom of the Isles",
+    "modes": {
+      "baseline": {
+        "result": {
+          "question": "What is the name of the Isles who were led by Aonghus M\u00f3r and covered a total land area of over 8300 km2?",
+          "retrieved": [
+            {
+              "doc_id": "List_of_islands_of_Tasmania",
+              "text": "This is a list of islands of Tasmania, the smallest and southernmost state of Australia.  The Tasmanian mainland itself is an island, with an area of 64,103 km2 - 94.1% of the total land area of the state of Tasmania.  The eleven next largest islands have a combined area of 3,826 km2 , for a cumulative total of 99.75% of the state.  Over 300 smaller islands make up the remaining 173 km2 of total land area."
+            },
+            {
+              "doc_id": "Kingdom_of_the_Isles",
+              "text": "The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man from the 9th to the 13th centuries AD.  The islands were known to the Norse as the \"Su\u00f0reyjar\", or \"Southern Isles\" as distinct from the \"Nor\u00f0reyjar\" or Northern Isles of Orkney and Shetland.  The historical record is incomplete, and the kingdom was not a continuous entity throughout the entire period.  The islands concerned are sometimes referred to as the Kingdom of Mann and the Isles, although only some of the later rulers claimed that title.  At times the rulers were independent of external control, although for much of the period they had overlords in Norway, Ireland, England, Scotland or Orkney.  At times there also appear to have been competing claims for all or parts of the territory.  The islands involved have a total land area of over 8300 km2 and extend for more than 500 km from north to south."
+            },
+            {
+              "doc_id": "List_of_rulers_of_the_Kingdom_of_the_Isles",
+              "text": "The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man from the 9th to the 13th centuries AD.  The islands were known to the Norse as the \"Su\u00f0reyjar\", or \"Southern Isles\" as distinct from the \"Nor\u00f0reyjar\" or Northern Isles of Orkney and Shetland.  The historical record is incomplete and the kingdom was probably not a continuous entity throughout the entire period.  The islands concerned are sometimes referred to as the \"Kingdom of Mann and the Isles\", although only some of the later rulers claimed that title.  At times the rulers were independent of external control, although for much of the period they had overlords in Norway, Ireland, England, Scotland or Orkney.  At times there also appear to have been competing claims for all or parts of the territory.  The islands involved have a total land area of over 8300 km2 and extend for more than 500 km from north to south."
+            },
+            {
+              "doc_id": "Geography_of_the_Philippines",
+              "text": "The Philippines is an archipelago that consists of 7,641 islands with a total land area of 301780 km2 .  The 11 largest islands contain 95% of the total land area.  The largest of these islands is Luzon at about 105000 km2 .  The next largest island is Mindanao at about 95000 km2 .  The archipelago is around 800 km from the Asian mainland and is located between Taiwan and Borneo."
+            },
+            {
+              "doc_id": "Aonghus_M\u00f3r",
+              "text": "Aonghus M\u00f3r mac Domhnaill (died c.1293) was a leading figure in the thirteenth-century kingdoms of the Isles and Scotland.  He was a son of Domhnall mac Raghnaill, the eponym of Clann Domhnaill, a branch of Clann Somhairle.  Aonghus M\u00f3r appears to have succeeded his father in the mid part of the thirteenth century.  At the time, the rulers of the Isles were fiercely independent of the Scottish Crown, and owed nominal allegiance to the distant Norwegian Crown.  Aonghus M\u00f3r's first certain appearance in the historical record seems to evince his involvement in aiding native Irish kindreds against the consolidation of Anglo-Irish authority in the north-west Ireland.  Such cooperation could have been undertaken in the context of overseas kindreds like Clann Domhnaill constructing Irish alliances to gain assistance against Scottish encroachment."
+            }
+          ],
+          "answer": "Based on the provided sources, the Isles led by Aonghus M\u00f3r were called the **Kingdom of the Isles** [Kingdom_of_the_Isles][List_of_rulers_of_the_Kingdom_of_the_Isles], and they covered a total land area of over 8300 km2 [Kingdom_of_the_Isles]. \n\nThe Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man [Kingdom_of_the_Isles], and Aonghus M\u00f3r was a leading figure in this kingdom during the thirteenth century [Aonghus_M\u00f3r].",
+          "citations": [
+            "Kingdom_of_the_Isles",
+            "List_of_rulers_of_the_Kingdom_of_the_Isles",
+            "Kingdom_of_the_Isles",
+            "Kingdom_of_the_Isles"
+          ],
+          "abstained": false,
+          "latency_s": 6.219188213348389,
+          "usage": {
+            "input_tokens": 1129,
+            "output_tokens": 166,
+            "n_calls": 1
+          },
+          "intermediate": {}
+        },
+        "score": {
+          "csr": 0.3333333333333333,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 3,
+          "verdicts": [
+            {
+              "claim": "Based on the provided sources, the Isles led by Aonghus M\u00f3r were called the **Kingdom of the Isles** , and they covered a total land area of over 8300 km2 .",
+              "doc_id": "Kingdom_of_the_Isles",
+              "verdict": "SUPPORTED"
+            },
+            {
+              "claim": "Based on the provided sources, the Isles led by Aonghus M\u00f3r were called the **Kingdom of the Isles** , and they covered a total land area of over 8300 km2 .",
+              "doc_id": "List_of_rulers_of_the_Kingdom_of_the_Isles",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man , and Aonghus M\u00f3r was a leading figure in this kingdom during the thirteenth century [Aonghus_M\u00f3r].",
+              "doc_id": "Kingdom_of_the_Isles",
+              "verdict": "PARTIAL"
+            }
+          ]
+        }
+      },
+      "cove": {
+        "result": {
+          "question": "What is the name of the Isles who were led by Aonghus M\u00f3r and covered a total land area of over 8300 km2?",
+          "retrieved": [
+            {
+              "doc_id": "List_of_islands_of_Tasmania",
+              "text": "This is a list of islands of Tasmania, the smallest and southernmost state of Australia.  The Tasmanian mainland itself is an island, with an area of 64,103 km2 - 94.1% of the total land area of the state of Tasmania.  The eleven next largest islands have a combined area of 3,826 km2 , for a cumulative total of 99.75% of the state.  Over 300 smaller islands make up the remaining 173 km2 of total land area."
+            },
+            {
+              "doc_id": "Kingdom_of_the_Isles",
+              "text": "The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man from the 9th to the 13th centuries AD.  The islands were known to the Norse as the \"Su\u00f0reyjar\", or \"Southern Isles\" as distinct from the \"Nor\u00f0reyjar\" or Northern Isles of Orkney and Shetland.  The historical record is incomplete, and the kingdom was not a continuous entity throughout the entire period.  The islands concerned are sometimes referred to as the Kingdom of Mann and the Isles, although only some of the later rulers claimed that title.  At times the rulers were independent of external control, although for much of the period they had overlords in Norway, Ireland, England, Scotland or Orkney.  At times there also appear to have been competing claims for all or parts of the territory.  The islands involved have a total land area of over 8300 km2 and extend for more than 500 km from north to south."
+            },
+            {
+              "doc_id": "List_of_rulers_of_the_Kingdom_of_the_Isles",
+              "text": "The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man from the 9th to the 13th centuries AD.  The islands were known to the Norse as the \"Su\u00f0reyjar\", or \"Southern Isles\" as distinct from the \"Nor\u00f0reyjar\" or Northern Isles of Orkney and Shetland.  The historical record is incomplete and the kingdom was probably not a continuous entity throughout the entire period.  The islands concerned are sometimes referred to as the \"Kingdom of Mann and the Isles\", although only some of the later rulers claimed that title.  At times the rulers were independent of external control, although for much of the period they had overlords in Norway, Ireland, England, Scotland or Orkney.  At times there also appear to have been competing claims for all or parts of the territory.  The islands involved have a total land area of over 8300 km2 and extend for more than 500 km from north to south."
+            },
+            {
+              "doc_id": "Geography_of_the_Philippines",
+              "text": "The Philippines is an archipelago that consists of 7,641 islands with a total land area of 301780 km2 .  The 11 largest islands contain 95% of the total land area.  The largest of these islands is Luzon at about 105000 km2 .  The next largest island is Mindanao at about 95000 km2 .  The archipelago is around 800 km from the Asian mainland and is located between Taiwan and Borneo."
+            },
+            {
+              "doc_id": "Aonghus_M\u00f3r",
+              "text": "Aonghus M\u00f3r mac Domhnaill (died c.1293) was a leading figure in the thirteenth-century kingdoms of the Isles and Scotland.  He was a son of Domhnall mac Raghnaill, the eponym of Clann Domhnaill, a branch of Clann Somhairle.  Aonghus M\u00f3r appears to have succeeded his father in the mid part of the thirteenth century.  At the time, the rulers of the Isles were fiercely independent of the Scottish Crown, and owed nominal allegiance to the distant Norwegian Crown.  Aonghus M\u00f3r's first certain appearance in the historical record seems to evince his involvement in aiding native Irish kindreds against the consolidation of Anglo-Irish authority in the north-west Ireland.  Such cooperation could have been undertaken in the context of overseas kindreds like Clann Domhnaill constructing Irish alliances to gain assistance against Scottish encroachment."
+            }
+          ],
+          "answer": "The Kingdom of the Isles was led by Aonghus M\u00f3r [Aonghus_M\u00f3r] and covered a total land area of over 8300 km2 [Kingdom_of_the_Isles][List_of_rulers_of_the_Kingdom_of_the_Isles]. The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man [Kingdom_of_the_Isles].",
+          "citations": [
+            "Kingdom_of_the_Isles",
+            "List_of_rulers_of_the_Kingdom_of_the_Isles",
+            "Kingdom_of_the_Isles"
+          ],
+          "abstained": false,
+          "latency_s": 10.105612754821777,
+          "usage": {
+            "input_tokens": 2871,
+            "output_tokens": 593,
+            "n_calls": 6
+          },
+          "intermediate": {
+            "draft": "The Kingdom of the Isles [Kingdom_of_the_Isles][List_of_rulers_of_the_Kingdom_of_the_Isles] was led by Aonghus M\u00f3r [Aonghus_M\u00f3r] and covered a total land area of over 8300 km2 [Kingdom_of_the_Isles][List_of_rulers_of_the_Kingdom_of_the_Isles]. The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man [Kingdom_of_the_Isles].",
+            "verifications": [
+              {
+                "claim": "The Kingdom of the Isles was led by Aonghus M\u00f3r",
+                "cited": [
+                  "Aonghus_M\u00f3r"
+                ],
+                "raw": "SUPPORTED\n\"Aonghus M\u00f3r mac Domhnaill (died c.1293) was a leading figure in the thirteenth-century kingdoms of the Isles and Scotland.\""
+              },
+              {
+                "claim": "The Kingdom of the Isles covered a total land area of over 8300 km2",
+                "cited": [
+                  "Kingdom_of_the_Isles",
+                  "List_of_rulers_of_the_Kingdom_of_the_Isles"
+                ],
+                "raw": "SUPPORTED\n\n\"The islands involved have a total land area of over 8300 km2 and extend for more than 500 km from north to south.\""
+              },
+              {
+                "claim": "The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man",
+                "cited": [
+                  "Kingdom_of_the_Isles"
+                ],
+                "raw": "SUPPORTED\n\n\"The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man from the 9th to the 13th centuries AD.\""
+              }
+            ]
+          }
+        },
+        "score": {
+          "csr": 0.3333333333333333,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 3,
+          "verdicts": [
+            {
+              "claim": "The Kingdom of the Isles was led by Aonghus M\u00f3r [Aonghus_M\u00f3r] and covered a total land area of over 8300 km2 .",
+              "doc_id": "Kingdom_of_the_Isles",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "The Kingdom of the Isles was led by Aonghus M\u00f3r [Aonghus_M\u00f3r] and covered a total land area of over 8300 km2 .",
+              "doc_id": "List_of_rulers_of_the_Kingdom_of_the_Isles",
+              "verdict": "UNSUPPORTED"
+            },
+            {
+              "claim": "The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man .",
+              "doc_id": "Kingdom_of_the_Isles",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      },
+      "quote": {
+        "result": {
+          "question": "What is the name of the Isles who were led by Aonghus M\u00f3r and covered a total land area of over 8300 km2?",
+          "retrieved": [
+            {
+              "doc_id": "List_of_islands_of_Tasmania",
+              "text": "This is a list of islands of Tasmania, the smallest and southernmost state of Australia.  The Tasmanian mainland itself is an island, with an area of 64,103 km2 - 94.1% of the total land area of the state of Tasmania.  The eleven next largest islands have a combined area of 3,826 km2 , for a cumulative total of 99.75% of the state.  Over 300 smaller islands make up the remaining 173 km2 of total land area."
+            },
+            {
+              "doc_id": "Kingdom_of_the_Isles",
+              "text": "The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man from the 9th to the 13th centuries AD.  The islands were known to the Norse as the \"Su\u00f0reyjar\", or \"Southern Isles\" as distinct from the \"Nor\u00f0reyjar\" or Northern Isles of Orkney and Shetland.  The historical record is incomplete, and the kingdom was not a continuous entity throughout the entire period.  The islands concerned are sometimes referred to as the Kingdom of Mann and the Isles, although only some of the later rulers claimed that title.  At times the rulers were independent of external control, although for much of the period they had overlords in Norway, Ireland, England, Scotland or Orkney.  At times there also appear to have been competing claims for all or parts of the territory.  The islands involved have a total land area of over 8300 km2 and extend for more than 500 km from north to south."
+            },
+            {
+              "doc_id": "List_of_rulers_of_the_Kingdom_of_the_Isles",
+              "text": "The Kingdom of the Isles comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man from the 9th to the 13th centuries AD.  The islands were known to the Norse as the \"Su\u00f0reyjar\", or \"Southern Isles\" as distinct from the \"Nor\u00f0reyjar\" or Northern Isles of Orkney and Shetland.  The historical record is incomplete and the kingdom was probably not a continuous entity throughout the entire period.  The islands concerned are sometimes referred to as the \"Kingdom of Mann and the Isles\", although only some of the later rulers claimed that title.  At times the rulers were independent of external control, although for much of the period they had overlords in Norway, Ireland, England, Scotland or Orkney.  At times there also appear to have been competing claims for all or parts of the territory.  The islands involved have a total land area of over 8300 km2 and extend for more than 500 km from north to south."
+            },
+            {
+              "doc_id": "Geography_of_the_Philippines",
+              "text": "The Philippines is an archipelago that consists of 7,641 islands with a total land area of 301780 km2 .  The 11 largest islands contain 95% of the total land area.  The largest of these islands is Luzon at about 105000 km2 .  The next largest island is Mindanao at about 95000 km2 .  The archipelago is around 800 km from the Asian mainland and is located between Taiwan and Borneo."
+            },
+            {
+              "doc_id": "Aonghus_M\u00f3r",
+              "text": "Aonghus M\u00f3r mac Domhnaill (died c.1293) was a leading figure in the thirteenth-century kingdoms of the Isles and Scotland.  He was a son of Domhnall mac Raghnaill, the eponym of Clann Domhnaill, a branch of Clann Somhairle.  Aonghus M\u00f3r appears to have succeeded his father in the mid part of the thirteenth century.  At the time, the rulers of the Isles were fiercely independent of the Scottish Crown, and owed nominal allegiance to the distant Norwegian Crown.  Aonghus M\u00f3r's first certain appearance in the historical record seems to evince his involvement in aiding native Irish kindreds against the consolidation of Anglo-Irish authority in the north-west Ireland.  Such cooperation could have been undertaken in the context of overseas kindreds like Clann Domhnaill constructing Irish alliances to gain assistance against Scottish encroachment."
+            }
+          ],
+          "answer": "Based on the provided sources, the Isles led by Aonghus M\u00f3r were part of the **Kingdom of the Isles** [Kingdom_of_the_Isles][List_of_rulers_of_the_Kingdom_of_the_Isles]. This kingdom comprised \"the Hebrides, the islands of the Firth of Clyde and the Isle of Man\" [Kingdom_of_the_Isles], and had \"a total land area of over 8300 km2\" [Kingdom_of_the_Isles][List_of_rulers_of_the_Kingdom_of_the_Isles]. \n\nAonghus M\u00f3r mac Domhnaill \"was a leading figure in the thirteenth-century kingdoms of the Isles and Scotland\" [Aonghus_M\u00f3r], and the islands were \"sometimes referred to as the 'Kingdom of Mann and the Isles'\" [Kingdom_of_the_Isles].",
+          "citations": [
+            "Kingdom_of_the_Isles",
+            "List_of_rulers_of_the_Kingdom_of_the_Isles",
+            "Kingdom_of_the_Isles",
+            "Kingdom_of_the_Isles",
+            "List_of_rulers_of_the_Kingdom_of_the_Isles",
+            "Kingdom_of_the_Isles"
+          ],
+          "abstained": false,
+          "latency_s": 4.020170450210571,
+          "usage": {
+            "input_tokens": 2500,
+            "output_tokens": 445,
+            "n_calls": 2
+          },
+          "intermediate": {
+            "draft": "Based on the provided sources, the Isles led by Aonghus M\u00f3r were part of the **Kingdom of the Isles** [Kingdom_of_the_Isles][List_of_rulers_of_the_Kingdom_of_the_Isles]. This kingdom comprised the Hebrides, the islands of the Firth of Clyde and the Isle of Man [Kingdom_of_the_Isles], and had a total land area of over 8300 km2 [Kingdom_of_the_Isles][List_of_rulers_of_the_Kingdom_of_the_Isles]. \n\nAonghus M\u00f3r mac Domhnaill was a leading figure in this kingdom in the thirteenth century [Aonghus_M\u00f3r], and the islands were sometimes referred to as the \"Kingdom of Mann and the Isles\" [Kingdom_of_the_Isles]."
+          }
+        },
+        "score": {
+          "csr": 0.6,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 5,
+          "verdicts": [
+            {
+              "claim": "Based on the provided sources, the Isles led by Aonghus M\u00f3r were part of the **Kingdom of the Isles** .",
+              "doc_id": "Kingdom_of_the_Isles",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "Based on the provided sources, the Isles led by Aonghus M\u00f3r were part of the **Kingdom of the Isles** .",
+              "doc_id": "List_of_rulers_of_the_Kingdom_of_the_Isles",
+              "verdict": "SUPPORTED"
+            },
+            {
+              "claim": "This kingdom comprised \"the Hebrides, the islands of the Firth of Clyde and the Isle of Man\" , and had \"a total land area of over 8300 km2\" .",
+              "doc_id": "Kingdom_of_the_Isles",
+              "verdict": "SUPPORTED"
+            },
+            {
+              "claim": "This kingdom comprised \"the Hebrides, the islands of the Firth of Clyde and the Isle of Man\" , and had \"a total land area of over 8300 km2\" .",
+              "doc_id": "List_of_rulers_of_the_Kingdom_of_the_Isles",
+              "verdict": "SUPPORTED"
+            },
+            {
+              "claim": "Aonghus M\u00f3r mac Domhnaill \"was a leading figure in the thirteenth-century kingdoms of the Isles and Scotland\" [Aonghus_M\u00f3r], and the islands were \"sometimes referred to as the 'Kingdom of Mann and the Isles'\" .",
+              "doc_id": "Kingdom_of_the_Isles",
+              "verdict": "PARTIAL"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "qid": "ho_002",
+    "question": "Which part of Handel's Messiah covers the birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem?",
+    "hard_case": false,
+    "gold_answer": "Part I",
+    "modes": {
+      "baseline": {
+        "result": {
+          "question": "Which part of Handel's Messiah covers the birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem?",
+          "retrieved": [
+            {
+              "doc_id": "Nativity_of_Jesus",
+              "text": "The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew.  The two accounts agree that Jesus was born in Bethlehem in the time of Herod the Great to a betrothed virgin whose name was Mary.  There are, however, major differences.  Matthew has no census, annunciation to the shepherds or presentation in the Temple, implies that Jesus's parents' home is Bethlehem, and has him born in a house there, and has an unnamed angel appear to Joseph to announce the birth.  In Luke there are no Magi, no flight into Egypt, or Massacre of the Innocents, Joseph is a resident of Nazareth, the birth appears to take place in an inn instead of the family home, and the angel (named as Gabriel) announces the coming birth to Mary.  While it is possible that Matthew's account might be based on Luke, or Luke's on Matthew, the majority of scholars conclude that the two are independent of each other."
+            },
+            {
+              "doc_id": "Messiah_Part_III",
+              "text": "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.  This listing covers Part III in a table and comments on individual movements, reflecting the relation of the musical setting to the text.  Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds as a scene from the Gospel of Luke, and reflects the Messiah's deeds on Earth.  Part II covers the Passion, death, resurrection, ascension, and the later spreading of the Gospel.  Part III concentrates on Paul's teaching of the and Christ's glorification in heaven."
+            },
+            {
+              "doc_id": "Messiah_Part_II",
+              "text": "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.  This listing covers Part II in a table and comments on individual movements, reflecting the relation of the musical setting to the text.  Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.  Part II covers the Passion in nine movements including the oratorio's longest movement, an air for alto He was despised, then mentions death, resurrection, ascension, and reflects the spreading of the Gospel and its rejection.  The part is concluded by a scene called \"God's Triumph\" which culminates in the \"Hallelujah Chorus\".  Part III of the oratorio concentrates on Paul's teaching of the and Christ's glorification in heaven."
+            },
+            {
+              "doc_id": "Messiah_Part_I",
+              "text": "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.  The wordbook (also called libretto or text) was supplied by Charles Jennens.  This article covers Part I and describes the relation of the musical setting to the text.  Part I begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.  His birth is still rendered in words by Isaiah, followed by the annunciation to the shepherds as the only scene from a Gospel in the oratorio, and reflections on the Messiah's deeds.  Part II covers the Passion, death, resurrection, ascension, and the later spreading of the Gospel.  Part III concentrates on Paul's teaching of the and Christ's glorification in heaven."
+            },
+            {
+              "doc_id": "Return_of_the_family_of_Jesus_to_Nazareth",
+              "text": "The return of the family of Jesus to Nazareth, also known as the Return from Egypt, appears in the reports of the early life of Jesus given in the Canonical gospels. Both of the gospels which describe the nativity of Jesus agree that he was born in Bethlehem and then later moved with his family to live in Nazareth.  The Gospel of Matthew describes how Joseph, Mary, and Jesus went to Egypt to escape from Herod the Great's slaughter of the baby boys in Bethlehem.  Matthew does not mention Nazareth as being the previous home of Joseph and Mary; he says that Joseph was afraid to go to Judea because Herod Archelaus was ruling there and so the family went to Nazareth instead.  The Gospel of Luke, on the other hand, does not record anything about the flight to Egypt, but says that Joseph had been previously living in Nazareth, and returned there after the Presentation of Jesus at the Temple."
+            }
+          ],
+          "answer": "According to the sources, Part I of Handel's Messiah covers the birth of Jesus, who according to the gospels of Luke and Matthew was born in Bethlehem [Nativity_of_Jesus]. Specifically, Part I \"begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah. His birth is still rendered in words by Isaiah, followed by the annunciation to the shepherds as the only scene from a Gospel in the oratorio\" [Messiah_Part_I].",
+          "citations": [
+            "Nativity_of_Jesus",
+            "Messiah_Part_I"
+          ],
+          "abstained": false,
+          "latency_s": 1.6111679077148438,
+          "usage": {
+            "input_tokens": 1176,
+            "output_tokens": 118,
+            "n_calls": 1
+          },
+          "intermediate": {}
+        },
+        "score": {
+          "csr": 0.5,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 2,
+          "verdicts": [
+            {
+              "claim": "According to the sources, Part I of Handel's Messiah covers the birth of Jesus, who according to the gospels of Luke and Matthew was born in Bethlehem .",
+              "doc_id": "Nativity_of_Jesus",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "His birth is still rendered in words by Isaiah, followed by the annunciation to the shepherds as the only scene from a Gospel in the oratorio\" .",
+              "doc_id": "Messiah_Part_I",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      },
+      "cove": {
+        "result": {
+          "question": "Which part of Handel's Messiah covers the birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem?",
+          "retrieved": [
+            {
+              "doc_id": "Nativity_of_Jesus",
+              "text": "The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew.  The two accounts agree that Jesus was born in Bethlehem in the time of Herod the Great to a betrothed virgin whose name was Mary.  There are, however, major differences.  Matthew has no census, annunciation to the shepherds or presentation in the Temple, implies that Jesus's parents' home is Bethlehem, and has him born in a house there, and has an unnamed angel appear to Joseph to announce the birth.  In Luke there are no Magi, no flight into Egypt, or Massacre of the Innocents, Joseph is a resident of Nazareth, the birth appears to take place in an inn instead of the family home, and the angel (named as Gabriel) announces the coming birth to Mary.  While it is possible that Matthew's account might be based on Luke, or Luke's on Matthew, the majority of scholars conclude that the two are independent of each other."
+            },
+            {
+              "doc_id": "Messiah_Part_III",
+              "text": "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.  This listing covers Part III in a table and comments on individual movements, reflecting the relation of the musical setting to the text.  Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds as a scene from the Gospel of Luke, and reflects the Messiah's deeds on Earth.  Part II covers the Passion, death, resurrection, ascension, and the later spreading of the Gospel.  Part III concentrates on Paul's teaching of the and Christ's glorification in heaven."
+            },
+            {
+              "doc_id": "Messiah_Part_II",
+              "text": "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.  This listing covers Part II in a table and comments on individual movements, reflecting the relation of the musical setting to the text.  Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.  Part II covers the Passion in nine movements including the oratorio's longest movement, an air for alto He was despised, then mentions death, resurrection, ascension, and reflects the spreading of the Gospel and its rejection.  The part is concluded by a scene called \"God's Triumph\" which culminates in the \"Hallelujah Chorus\".  Part III of the oratorio concentrates on Paul's teaching of the and Christ's glorification in heaven."
+            },
+            {
+              "doc_id": "Messiah_Part_I",
+              "text": "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.  The wordbook (also called libretto or text) was supplied by Charles Jennens.  This article covers Part I and describes the relation of the musical setting to the text.  Part I begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.  His birth is still rendered in words by Isaiah, followed by the annunciation to the shepherds as the only scene from a Gospel in the oratorio, and reflections on the Messiah's deeds.  Part II covers the Passion, death, resurrection, ascension, and the later spreading of the Gospel.  Part III concentrates on Paul's teaching of the and Christ's glorification in heaven."
+            },
+            {
+              "doc_id": "Return_of_the_family_of_Jesus_to_Nazareth",
+              "text": "The return of the family of Jesus to Nazareth, also known as the Return from Egypt, appears in the reports of the early life of Jesus given in the Canonical gospels. Both of the gospels which describe the nativity of Jesus agree that he was born in Bethlehem and then later moved with his family to live in Nazareth.  The Gospel of Matthew describes how Joseph, Mary, and Jesus went to Egypt to escape from Herod the Great's slaughter of the baby boys in Bethlehem.  Matthew does not mention Nazareth as being the previous home of Joseph and Mary; he says that Joseph was afraid to go to Judea because Herod Archelaus was ruling there and so the family went to Nazareth instead.  The Gospel of Luke, on the other hand, does not record anything about the flight to Egypt, but says that Joseph had been previously living in Nazareth, and returned there after the Presentation of Jesus at the Temple."
+            }
+          ],
+          "answer": "# Answer\n\nPart I of Handel's Messiah covers the birth of the child who, according to the gospels of Luke and Matthew, was born in Bethlehem [Nativity_of_Jesus]. Part I begins with the prophecy of the Messiah and his virgin birth [Messiah_Part_I] and includes the annunciation to the shepherds as the only scene from a Gospel in the oratorio [Messiah_Part_I].",
+          "citations": [
+            "Nativity_of_Jesus",
+            "Messiah_Part_I",
+            "Messiah_Part_I"
+          ],
+          "abstained": false,
+          "latency_s": 7.98090672492981,
+          "usage": {
+            "input_tokens": 2780,
+            "output_tokens": 553,
+            "n_calls": 7
+          },
+          "intermediate": {
+            "draft": "According to the sources provided, Part I of Handel's Messiah covers the birth of Jesus, who according to the gospels of Luke and Matthew was born in Bethlehem [Nativity_of_Jesus]. Specifically, Part I \"begins with the prophecy of the Messiah and his virgin birth\" and includes \"the annunciation to the shepherds as the only scene from a Gospel in the oratorio\" [Messiah_Part_I].",
+            "verifications": [
+              {
+                "claim": "Part I of Handel's Messiah covers the birth of Jesus",
+                "cited": [
+                  "Nativity_of_Jesus"
+                ],
+                "raw": "NOT_SUPPORTED\nThe evidence provided is about the nativity accounts in the gospels of Luke and Matthew, but contains no information whatsoever about Handel's Messiah or what Part I of that composition covers."
+              },
+              {
+                "claim": "According to the gospels of Luke and Matthew, Jesus was born in Bethlehem",
+                "cited": [
+                  "Nativity_of_Jesus"
+                ],
+                "raw": "SUPPORTED\n\n\"The two accounts agree that Jesus was born in Bethlehem in the time of Herod the Great to a betrothed virgin whose name was Mary.\""
+              },
+              {
+                "claim": "Part I begins with the prophecy of the Messiah and his virgin birth",
+                "cited": [
+                  "Messiah_Part_I"
+                ],
+                "raw": "SUPPORTED\n\n\"Part I begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.\""
+              },
+              {
+                "claim": "Part I includes the annunciation to the shepherds as the only scene from a Gospel in the oratorio",
+                "cited": [
+                  "Messiah_Part_I"
+                ],
+                "raw": "SUPPORTED\n\n\"followed by the annunciation to the shepherds as the only scene from a Gospel in the oratorio\""
+              }
+            ]
+          }
+        },
+        "score": {
+          "csr": 1.0,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 2,
+          "verdicts": [
+            {
+              "claim": "# Answer\n\nPart I of Handel's Messiah covers the birth of the child who, according to the gospels of Luke and Matthew, was born in Bethlehem .",
+              "doc_id": "Nativity_of_Jesus",
+              "verdict": "SUPPORTED"
+            },
+            {
+              "claim": "Part I begins with the prophecy of the Messiah and his virgin birth  and includes the annunciation to the shepherds as the only scene from a Gospel in the oratorio .",
+              "doc_id": "Messiah_Part_I",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      },
+      "quote": {
+        "result": {
+          "question": "Which part of Handel's Messiah covers the birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem?",
+          "retrieved": [
+            {
+              "doc_id": "Nativity_of_Jesus",
+              "text": "The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew.  The two accounts agree that Jesus was born in Bethlehem in the time of Herod the Great to a betrothed virgin whose name was Mary.  There are, however, major differences.  Matthew has no census, annunciation to the shepherds or presentation in the Temple, implies that Jesus's parents' home is Bethlehem, and has him born in a house there, and has an unnamed angel appear to Joseph to announce the birth.  In Luke there are no Magi, no flight into Egypt, or Massacre of the Innocents, Joseph is a resident of Nazareth, the birth appears to take place in an inn instead of the family home, and the angel (named as Gabriel) announces the coming birth to Mary.  While it is possible that Matthew's account might be based on Luke, or Luke's on Matthew, the majority of scholars conclude that the two are independent of each other."
+            },
+            {
+              "doc_id": "Messiah_Part_III",
+              "text": "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.  This listing covers Part III in a table and comments on individual movements, reflecting the relation of the musical setting to the text.  Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds as a scene from the Gospel of Luke, and reflects the Messiah's deeds on Earth.  Part II covers the Passion, death, resurrection, ascension, and the later spreading of the Gospel.  Part III concentrates on Paul's teaching of the and Christ's glorification in heaven."
+            },
+            {
+              "doc_id": "Messiah_Part_II",
+              "text": "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.  This listing covers Part II in a table and comments on individual movements, reflecting the relation of the musical setting to the text.  Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.  Part II covers the Passion in nine movements including the oratorio's longest movement, an air for alto He was despised, then mentions death, resurrection, ascension, and reflects the spreading of the Gospel and its rejection.  The part is concluded by a scene called \"God's Triumph\" which culminates in the \"Hallelujah Chorus\".  Part III of the oratorio concentrates on Paul's teaching of the and Christ's glorification in heaven."
+            },
+            {
+              "doc_id": "Messiah_Part_I",
+              "text": "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.  The wordbook (also called libretto or text) was supplied by Charles Jennens.  This article covers Part I and describes the relation of the musical setting to the text.  Part I begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.  His birth is still rendered in words by Isaiah, followed by the annunciation to the shepherds as the only scene from a Gospel in the oratorio, and reflections on the Messiah's deeds.  Part II covers the Passion, death, resurrection, ascension, and the later spreading of the Gospel.  Part III concentrates on Paul's teaching of the and Christ's glorification in heaven."
+            },
+            {
+              "doc_id": "Return_of_the_family_of_Jesus_to_Nazareth",
+              "text": "The return of the family of Jesus to Nazareth, also known as the Return from Egypt, appears in the reports of the early life of Jesus given in the Canonical gospels. Both of the gospels which describe the nativity of Jesus agree that he was born in Bethlehem and then later moved with his family to live in Nazareth.  The Gospel of Matthew describes how Joseph, Mary, and Jesus went to Egypt to escape from Herod the Great's slaughter of the baby boys in Bethlehem.  Matthew does not mention Nazareth as being the previous home of Joseph and Mary; he says that Joseph was afraid to go to Judea because Herod Archelaus was ruling there and so the family went to Nazareth instead.  The Gospel of Luke, on the other hand, does not record anything about the flight to Egypt, but says that Joseph had been previously living in Nazareth, and returned there after the Presentation of Jesus at the Temple."
+            }
+          ],
+          "answer": "According to the sources, Part I of Handel's Messiah covers the birth of Jesus. Part I \"begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.\" [Messiah_Part_I]\n\nJesus was born in Bethlehem according to the gospels of Luke and Matthew. \"The two accounts agree that Jesus was born in Bethlehem in the time of Herod the Great to a betrothed virgin whose name was Mary.\" [Nativity_of_Jesus]",
+          "citations": [
+            "Messiah_Part_I",
+            "Nativity_of_Jesus"
+          ],
+          "abstained": false,
+          "latency_s": 3.1934046745300293,
+          "usage": {
+            "input_tokens": 2545,
+            "output_tokens": 285,
+            "n_calls": 2
+          },
+          "intermediate": {
+            "draft": "According to the sources, Part I of Handel's Messiah covers the birth of Jesus. [Messiah_Part_I] Part I \"begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah\" and includes \"the annunciation to the shepherds as the only scene from a Gospel in the oratorio.\" [Messiah_Part_I]\n\nJesus is the child who, according to the gospels of Luke and Matthew, was born in Bethlehem. [Nativity_of_Jesus] \"The two accounts agree that Jesus was born in Bethlehem in the time of Herod the Great to a betrothed virgin whose name was Mary.\" [Nativity_of_Jesus]"
+          }
+        },
+        "score": {
+          "csr": 0.5,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 2,
+          "verdicts": [
+            {
+              "claim": "Part I \"begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.\" \n\nJesus was born in Bethlehem according to the gospels of Luke and Matthew.",
+              "doc_id": "Messiah_Part_I",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "\"The two accounts agree that Jesus was born in Bethlehem in the time of Herod the Great to a betrothed virgin whose name was Mary.\"",
+              "doc_id": "Nativity_of_Jesus",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "qid": "ho_003",
+    "question": "What Danish drama thriller which takes place in both Denmark and Africa was produced by Sisse Graum J\u00f8rgensen?",
+    "hard_case": false,
+    "gold_answer": "In a Better World",
+    "modes": {
+      "baseline": {
+        "result": {
+          "question": "What Danish drama thriller which takes place in both Denmark and Africa was produced by Sisse Graum J\u00f8rgensen?",
+          "retrieved": [
+            {
+              "doc_id": "In_a_Better_World",
+              "text": "In a Better World (Danish: \"H\u00e6vnen\" , \"the revenge\") is a 2010 Danish drama thriller film written by Anders Thomas Jensen and directed by Susanne Bier.  The film stars Mikael Persbrandt, Trine Dyrholm, and Ulrich Thomsen in a story which takes place in small-town Denmark and a refugee camp in Africa."
+            },
+            {
+              "doc_id": "Sisse_Graum_J\u00f8rgensen",
+              "text": "Sisse Graum J\u00f8rgensen (born 8 May 1972) is a Danish film producer and sits on the board of the film company Zentropa.  Films she has produced include '\u201dH\u00e6vnen\u201d \u201cJagten\u201d and \u201cDear Wendy\u201d.  She also sits in the advisory board for TrustNordisk, a Scandinavian international film distributor."
+            },
+            {
+              "doc_id": "Eye_of_the_Eagle_(1997_film)",
+              "text": "Eye of the Eagle (Danish: \"\u00d8rnens \u00d8je\" ) is a Danish medieval adventure film directed by Peter Flinth and released in 1997.  Based on an original screenplay by Bjarne O. Henriksen, it takes place in Denmark during 1218.  Filming primarily took place at the Asserbo Castle ruins in Denmark, Eilean Donan Castle in Scotland, and Tisvilde Strand at Tisvildeleje in Denmark.  The film won five of Denmark's Robert Awards in 1998."
+            },
+            {
+              "doc_id": "A_Place_Nearby",
+              "text": "A Place Nearby (Danish: \"Her i n\u00e6rheden\" ) is a 2000 Danish drama film directed by Kaspar Rostrup and starring Ghita N\u00f8rby and Thure Lindhardt.  It was Denmark's submission to the 73rd Academy Awards for the Academy Award for Best Foreign Language Film, but was not accepted as a nominee."
+            },
+            {
+              "doc_id": "Law_Abiding_Citizen",
+              "text": "Law Abiding Citizen is a 2009 American crime drama thriller film directed by F. Gary Gray from a screenplay written by Kurt Wimmer and stars Gerard Butler and Jamie Foxx.  The film takes place in Philadelphia and tells the story of a man driven to seek justice while targeting not only his family's killer but also those who have supported a corrupt criminal justice system, intending to assassinate anyone supporting the system.  \"Law Abiding Citizen\" was released theatrically in North America on October 16, 2009."
+            }
+          ],
+          "answer": "Based on the provided sources, **In a Better World** is the Danish drama thriller produced by Sisse Graum J\u00f8rgensen that takes place in both Denmark and Africa [In_a_Better_World][Sisse_Graum_J\u00f8rgensen].\n\nThe film, also known by its Danish title \"H\u00e6vnen\" (meaning \"the revenge\"), is a 2010 film written by Anders Thomas Jensen and directed by Susanne Bier, with a story set in small-town Denmark and a refugee camp in Africa [In_a_Better_World]. Sisse Graum J\u00f8rgensen produced this film as part of her work as a Danish film producer [Sisse_Graum_J\u00f8rgensen].",
+          "citations": [
+            "In_a_Better_World",
+            "In_a_Better_World"
+          ],
+          "abstained": false,
+          "latency_s": 1.575275182723999,
+          "usage": {
+            "input_tokens": 699,
+            "output_tokens": 171,
+            "n_calls": 1
+          },
+          "intermediate": {}
+        },
+        "score": {
+          "csr": 0.5,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 2,
+          "verdicts": [
+            {
+              "claim": "Based on the provided sources, **In a Better World** is the Danish drama thriller produced by Sisse Graum J\u00f8rgensen that takes place in both Denmark and Africa [Sisse_Graum_J\u00f8rgensen].",
+              "doc_id": "In_a_Better_World",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "The film, also known by its Danish title \"H\u00e6vnen\" (meaning \"the revenge\"), is a 2010 film written by Anders Thomas Jensen and directed by Susanne Bier, with a story set in small-town Denmark and a refugee camp in Africa .",
+              "doc_id": "In_a_Better_World",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      },
+      "cove": {
+        "result": {
+          "question": "What Danish drama thriller which takes place in both Denmark and Africa was produced by Sisse Graum J\u00f8rgensen?",
+          "retrieved": [
+            {
+              "doc_id": "In_a_Better_World",
+              "text": "In a Better World (Danish: \"H\u00e6vnen\" , \"the revenge\") is a 2010 Danish drama thriller film written by Anders Thomas Jensen and directed by Susanne Bier.  The film stars Mikael Persbrandt, Trine Dyrholm, and Ulrich Thomsen in a story which takes place in small-town Denmark and a refugee camp in Africa."
+            },
+            {
+              "doc_id": "Sisse_Graum_J\u00f8rgensen",
+              "text": "Sisse Graum J\u00f8rgensen (born 8 May 1972) is a Danish film producer and sits on the board of the film company Zentropa.  Films she has produced include '\u201dH\u00e6vnen\u201d \u201cJagten\u201d and \u201cDear Wendy\u201d.  She also sits in the advisory board for TrustNordisk, a Scandinavian international film distributor."
+            },
+            {
+              "doc_id": "Eye_of_the_Eagle_(1997_film)",
+              "text": "Eye of the Eagle (Danish: \"\u00d8rnens \u00d8je\" ) is a Danish medieval adventure film directed by Peter Flinth and released in 1997.  Based on an original screenplay by Bjarne O. Henriksen, it takes place in Denmark during 1218.  Filming primarily took place at the Asserbo Castle ruins in Denmark, Eilean Donan Castle in Scotland, and Tisvilde Strand at Tisvildeleje in Denmark.  The film won five of Denmark's Robert Awards in 1998."
+            },
+            {
+              "doc_id": "A_Place_Nearby",
+              "text": "A Place Nearby (Danish: \"Her i n\u00e6rheden\" ) is a 2000 Danish drama film directed by Kaspar Rostrup and starring Ghita N\u00f8rby and Thure Lindhardt.  It was Denmark's submission to the 73rd Academy Awards for the Academy Award for Best Foreign Language Film, but was not accepted as a nominee."
+            },
+            {
+              "doc_id": "Law_Abiding_Citizen",
+              "text": "Law Abiding Citizen is a 2009 American crime drama thriller film directed by F. Gary Gray from a screenplay written by Kurt Wimmer and stars Gerard Butler and Jamie Foxx.  The film takes place in Philadelphia and tells the story of a man driven to seek justice while targeting not only his family's killer but also those who have supported a corrupt criminal justice system, intending to assassinate anyone supporting the system.  \"Law Abiding Citizen\" was released theatrically in North America on October 16, 2009."
+            }
+          ],
+          "answer": "\"In a Better World\" (Danish: \"H\u00e6vnen\") is the Danish drama thriller produced by Sisse Graum J\u00f8rgensen that takes place in both Denmark and Africa [In_a_Better_World][Sisse_Graum_J\u00f8rgensen]. This 2010 film was directed by Susanne Bier [In_a_Better_World] and is set in small-town Denmark and a refugee camp in Africa [In_a_Better_World].",
+          "citations": [
+            "In_a_Better_World",
+            "In_a_Better_World",
+            "In_a_Better_World"
+          ],
+          "abstained": false,
+          "latency_s": 9.108675003051758,
+          "usage": {
+            "input_tokens": 2271,
+            "output_tokens": 733,
+            "n_calls": 8
+          },
+          "intermediate": {
+            "draft": "Based on the provided sources, the Danish drama thriller produced by Sisse Graum J\u00f8rgensen that takes place in both Denmark and Africa is \"In a Better World\" (Danish: \"H\u00e6vnen\"). [In_a_Better_World][Sisse_Graum_J\u00f8rgensen]\n\nThe film is a 2010 Danish drama thriller directed by Susanne Bier that takes place in small-town Denmark and a refugee camp in Africa [In_a_Better_World], and Sisse Graum J\u00f8rgensen produced it [Sisse_Graum_J\u00f8rgensen].",
+            "verifications": [
+              {
+                "claim": "The Danish drama thriller produced by Sisse Graum J\u00f8rgensen that takes place in both Denmark and Africa is \"In a Better World\" (Danish: \"H\u00e6vnen\")",
+                "cited": [
+                  "In_a_Better_World",
+                  "Sisse_Graum_J\u00f8rgensen"
+                ],
+                "raw": "SUPPORTED\n\n\"Sisse Graum J\u00f8rgensen (born 8 May 1972) is a Danish film producer and sits on the board of the film company Zentropa. Films she has produced include '\"H\u00e6vnen\" \"Jagten\" and \"Dear Wendy\".\""
+              },
+              {
+                "claim": "The film is a 2010 Danish drama thriller",
+                "cited": [
+                  "In_a_Better_World"
+                ],
+                "raw": "SUPPORTED\n\n\"In a Better World (Danish: \"H\u00e6vnen\" , \"the revenge\") is a 2010 Danish drama thriller film\""
+              },
+              {
+                "claim": "The film is directed by Susanne Bier",
+                "cited": [
+                  "In_a_Better_World"
+                ],
+                "raw": "SUPPORTED\n\n\"directed by Susanne Bier\""
+              },
+              {
+                "claim": "The film takes place in small-town Denmark and a refugee camp in Africa",
+                "cited": [
+                  "In_a_Better_World"
+                ],
+                "raw": "SUPPORTED\n\n\"The film stars Mikael Persbrandt, Trine Dyrholm, and Ulrich Thomsen in a story which takes place in small-town Denmark and a refugee camp in Africa.\""
+              },
+              {
+                "claim": "Sisse Graum J\u00f8rgensen produced the film",
+                "cited": [
+                  "Sisse_Graum_J\u00f8rgensen"
+                ],
+                "raw": "SUPPORTED\n\n\"Films she has produced include '\"H\u00e6vnen\" \"Jagten\" and \"Dear Wendy\".\""
+              }
+            ]
+          }
+        },
+        "score": {
+          "csr": 0.5,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 2,
+          "verdicts": [
+            {
+              "claim": "\"In a Better World\" (Danish: \"H\u00e6vnen\") is the Danish drama thriller produced by Sisse Graum J\u00f8rgensen that takes place in both Denmark and Africa [Sisse_Graum_J\u00f8rgensen].",
+              "doc_id": "In_a_Better_World",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "This 2010 film was directed by Susanne Bier  and is set in small-town Denmark and a refugee camp in Africa .",
+              "doc_id": "In_a_Better_World",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      },
+      "quote": {
+        "result": {
+          "question": "What Danish drama thriller which takes place in both Denmark and Africa was produced by Sisse Graum J\u00f8rgensen?",
+          "retrieved": [
+            {
+              "doc_id": "In_a_Better_World",
+              "text": "In a Better World (Danish: \"H\u00e6vnen\" , \"the revenge\") is a 2010 Danish drama thriller film written by Anders Thomas Jensen and directed by Susanne Bier.  The film stars Mikael Persbrandt, Trine Dyrholm, and Ulrich Thomsen in a story which takes place in small-town Denmark and a refugee camp in Africa."
+            },
+            {
+              "doc_id": "Sisse_Graum_J\u00f8rgensen",
+              "text": "Sisse Graum J\u00f8rgensen (born 8 May 1972) is a Danish film producer and sits on the board of the film company Zentropa.  Films she has produced include '\u201dH\u00e6vnen\u201d \u201cJagten\u201d and \u201cDear Wendy\u201d.  She also sits in the advisory board for TrustNordisk, a Scandinavian international film distributor."
+            },
+            {
+              "doc_id": "Eye_of_the_Eagle_(1997_film)",
+              "text": "Eye of the Eagle (Danish: \"\u00d8rnens \u00d8je\" ) is a Danish medieval adventure film directed by Peter Flinth and released in 1997.  Based on an original screenplay by Bjarne O. Henriksen, it takes place in Denmark during 1218.  Filming primarily took place at the Asserbo Castle ruins in Denmark, Eilean Donan Castle in Scotland, and Tisvilde Strand at Tisvildeleje in Denmark.  The film won five of Denmark's Robert Awards in 1998."
+            },
+            {
+              "doc_id": "A_Place_Nearby",
+              "text": "A Place Nearby (Danish: \"Her i n\u00e6rheden\" ) is a 2000 Danish drama film directed by Kaspar Rostrup and starring Ghita N\u00f8rby and Thure Lindhardt.  It was Denmark's submission to the 73rd Academy Awards for the Academy Award for Best Foreign Language Film, but was not accepted as a nominee."
+            },
+            {
+              "doc_id": "Law_Abiding_Citizen",
+              "text": "Law Abiding Citizen is a 2009 American crime drama thriller film directed by F. Gary Gray from a screenplay written by Kurt Wimmer and stars Gerard Butler and Jamie Foxx.  The film takes place in Philadelphia and tells the story of a man driven to seek justice while targeting not only his family's killer but also those who have supported a corrupt criminal justice system, intending to assassinate anyone supporting the system.  \"Law Abiding Citizen\" was released theatrically in North America on October 16, 2009."
+            }
+          ],
+          "answer": "Based on the provided sources, \"In a Better World\" (Danish: \"H\u00e6vnen\") is a Danish drama thriller produced by Sisse Graum J\u00f8rgensen [In_a_Better_World][Sisse_Graum_J\u00f8rgensen]. The film was written by Anders Thomas Jensen and directed by Susanne Bier, and \"takes place in small-town Denmark and a refugee camp in Africa\" [In_a_Better_World].",
+          "citations": [
+            "In_a_Better_World",
+            "In_a_Better_World"
+          ],
+          "abstained": false,
+          "latency_s": 2.3035197257995605,
+          "usage": {
+            "input_tokens": 1549,
+            "output_tokens": 224,
+            "n_calls": 2
+          },
+          "intermediate": {
+            "draft": "Based on the provided sources, the Danish drama thriller produced by Sisse Graum J\u00f8rgensen that takes place in both Denmark and Africa is \"In a Better World\" (Danish: \"H\u00e6vnen\") [In_a_Better_World][Sisse_Graum_J\u00f8rgensen]. The film was written by Anders Thomas Jensen and directed by Susanne Bier, and the story takes place in small-town Denmark and a refugee camp in Africa [In_a_Better_World]."
+          }
+        },
+        "score": {
+          "csr": 0.5,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 2,
+          "verdicts": [
+            {
+              "claim": "Based on the provided sources, \"In a Better World\" (Danish: \"H\u00e6vnen\") is a Danish drama thriller produced by Sisse Graum J\u00f8rgensen [Sisse_Graum_J\u00f8rgensen].",
+              "doc_id": "In_a_Better_World",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "The film was written by Anders Thomas Jensen and directed by Susanne Bier, and \"takes place in small-town Denmark and a refugee camp in Africa\" .",
+              "doc_id": "In_a_Better_World",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "qid": "ho_004",
+    "question": "Katie sagona is known as what kind of actor because she was a child acting on stage or in motion pictures or television?",
+    "hard_case": false,
+    "gold_answer": "child actor",
+    "modes": {
+      "baseline": {
+        "result": {
+          "question": "Katie sagona is known as what kind of actor because she was a child acting on stage or in motion pictures or television?",
+          "retrieved": [
+            {
+              "doc_id": "Child_actor",
+              "text": "The term child actor or child actress is generally applied to a child acting on stage or in motion pictures or television, but also to an adult who began his or her acting career as a child; to avoid confusion, the latter is also called a \"former child actor\".  Closely associated is teenage actor or teen actor, an actor who reached popularity as a teenager."
+            },
+            {
+              "doc_id": "Reiko_Mut\u014d",
+              "text": "Reiko Mut\u014d (\u6b66\u85e4 \u793c\u5b50 or \u6b66\u85e4 \u79ae\u5b50 , Mut\u014d Reiko , March 1, 1935 \u2013 October 29, 2006, born in Tokyo, Japan) was a Japanese voice actress.  She is best known for playing the voice of Elizabeth Taylor in Japanese dubbed television and films, and playing main characters in \"Marvelous Melmo\" (as Melmo), \"Astro Boy\" as Uran (Astro Girl in the English version), and \"Moomin\" (as Non Non).  As a child, she found she enjoyed acting after joining the child acting troupe Gekidan Komadori."
+            },
+            {
+              "doc_id": "Ivar_Brogger",
+              "text": "Ivar Brogger (born January 10, 1947) is an American actor of stage, motion pictures and television.  He is known for his appearances in several TV shows like \"24\", \"NCIS\", \"\", \"Private Practice\" and a recurring role in \"Invasion\".  He had small roles in motion pictures like \"Dreamgirls\", \"Ocean's Thirteen\" and \"Little Children\"."
+            },
+            {
+              "doc_id": "Katie_Sagona",
+              "text": "Katie Sagona (born November 26, 1989) is an American child actress.  She acted in a series of films and TV shows throughout the 1990s and 2000s, including \"You've Got Mail\", \"In Dreams\", \"Grumpier Old Men\", \"Black and White\", and she also played Johnny Depp's daughter in \"Donnie Brasco\".  She was a Ford Model and appeared in Italian Vogue, and in print for Versace among many others."
+            },
+            {
+              "doc_id": "Motion_Picture_Production_Code",
+              "text": "The Motion Picture Production Code was the set of industry moral guidelines that was applied to most United States motion pictures released by major studios from 1930 to 1968.  It is also popularly known as the Hays Code, after Will H. Hays, who was the president of the Motion Picture Producers and Distributors of America (MPPDA) from 1922 to 1945.  Under Hays' leadership, the MPPDA, later known as the Motion Picture Association of America (MPAA), adopted the Production Code in 1930 and began strictly enforcing it in 1934.  The Production Code spelled out what was acceptable and what was unacceptable content for motion pictures produced for a public audience in the United States."
+            }
+          ],
+          "answer": "Based on the sources provided, Katie Sagona is known as a \"child actress\" [Child_actor][Katie_Sagona]. The term child actress is applied to a child acting on stage or in motion pictures or television [Child_actor], and Katie Sagona acted in a series of films and TV shows throughout the 1990s and 2000s [Katie_Sagona].",
+          "citations": [
+            "Child_actor",
+            "Katie_Sagona",
+            "Child_actor",
+            "Katie_Sagona"
+          ],
+          "abstained": false,
+          "latency_s": 1.1822540760040283,
+          "usage": {
+            "input_tokens": 786,
+            "output_tokens": 87,
+            "n_calls": 1
+          },
+          "intermediate": {}
+        },
+        "score": {
+          "csr": 0.25,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 4,
+          "verdicts": [
+            {
+              "claim": "Based on the sources provided, Katie Sagona is known as a \"child actress\" .",
+              "doc_id": "Child_actor",
+              "verdict": "UNSUPPORTED"
+            },
+            {
+              "claim": "Based on the sources provided, Katie Sagona is known as a \"child actress\" .",
+              "doc_id": "Katie_Sagona",
+              "verdict": "SUPPORTED"
+            },
+            {
+              "claim": "The term child actress is applied to a child acting on stage or in motion pictures or television , and Katie Sagona acted in a series of films and TV shows throughout the 1990s and 2000s .",
+              "doc_id": "Child_actor",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "The term child actress is applied to a child acting on stage or in motion pictures or television , and Katie Sagona acted in a series of films and TV shows throughout the 1990s and 2000s .",
+              "doc_id": "Katie_Sagona",
+              "verdict": "PARTIAL"
+            }
+          ]
+        }
+      },
+      "cove": {
+        "result": {
+          "question": "Katie sagona is known as what kind of actor because she was a child acting on stage or in motion pictures or television?",
+          "retrieved": [
+            {
+              "doc_id": "Child_actor",
+              "text": "The term child actor or child actress is generally applied to a child acting on stage or in motion pictures or television, but also to an adult who began his or her acting career as a child; to avoid confusion, the latter is also called a \"former child actor\".  Closely associated is teenage actor or teen actor, an actor who reached popularity as a teenager."
+            },
+            {
+              "doc_id": "Reiko_Mut\u014d",
+              "text": "Reiko Mut\u014d (\u6b66\u85e4 \u793c\u5b50 or \u6b66\u85e4 \u79ae\u5b50 , Mut\u014d Reiko , March 1, 1935 \u2013 October 29, 2006, born in Tokyo, Japan) was a Japanese voice actress.  She is best known for playing the voice of Elizabeth Taylor in Japanese dubbed television and films, and playing main characters in \"Marvelous Melmo\" (as Melmo), \"Astro Boy\" as Uran (Astro Girl in the English version), and \"Moomin\" (as Non Non).  As a child, she found she enjoyed acting after joining the child acting troupe Gekidan Komadori."
+            },
+            {
+              "doc_id": "Ivar_Brogger",
+              "text": "Ivar Brogger (born January 10, 1947) is an American actor of stage, motion pictures and television.  He is known for his appearances in several TV shows like \"24\", \"NCIS\", \"\", \"Private Practice\" and a recurring role in \"Invasion\".  He had small roles in motion pictures like \"Dreamgirls\", \"Ocean's Thirteen\" and \"Little Children\"."
+            },
+            {
+              "doc_id": "Katie_Sagona",
+              "text": "Katie Sagona (born November 26, 1989) is an American child actress.  She acted in a series of films and TV shows throughout the 1990s and 2000s, including \"You've Got Mail\", \"In Dreams\", \"Grumpier Old Men\", \"Black and White\", and she also played Johnny Depp's daughter in \"Donnie Brasco\".  She was a Ford Model and appeared in Italian Vogue, and in print for Versace among many others."
+            },
+            {
+              "doc_id": "Motion_Picture_Production_Code",
+              "text": "The Motion Picture Production Code was the set of industry moral guidelines that was applied to most United States motion pictures released by major studios from 1930 to 1968.  It is also popularly known as the Hays Code, after Will H. Hays, who was the president of the Motion Picture Producers and Distributors of America (MPPDA) from 1922 to 1945.  Under Hays' leadership, the MPPDA, later known as the Motion Picture Association of America (MPAA), adopted the Production Code in 1930 and began strictly enforcing it in 1934.  The Production Code spelled out what was acceptable and what was unacceptable content for motion pictures produced for a public audience in the United States."
+            }
+          ],
+          "answer": "Katie Sagona is known as a child actress [Child_actor][Katie_Sagona] because the term 'child actress' is applied to a child acting on stage or in motion pictures or television [Child_actor]. She acted in films and TV shows throughout the 1990s and 2000s [Katie_Sagona].",
+          "citations": [
+            "Child_actor",
+            "Katie_Sagona",
+            "Child_actor",
+            "Katie_Sagona"
+          ],
+          "abstained": false,
+          "latency_s": 6.299572229385376,
+          "usage": {
+            "input_tokens": 1831,
+            "output_tokens": 449,
+            "n_calls": 6
+          },
+          "intermediate": {
+            "draft": "Based on the provided sources, Katie Sagona is known as a \"child actress\" [Child_actor][Katie_Sagona]. According to the definition, the term \"child actress\" is applied to a child acting on stage or in motion pictures or television [Child_actor], and Katie Sagona fits this description as she acted in films and TV shows throughout the 1990s and 2000s [Katie_Sagona].",
+            "verifications": [
+              {
+                "claim": "Katie Sagona is known as a child actress",
+                "cited": [
+                  "Child_actor",
+                  "Katie_Sagona"
+                ],
+                "raw": "SUPPORTED\n\n\"Katie Sagona (born November 26, 1989) is an American child actress.\""
+              },
+              {
+                "claim": "The term 'child actress' is applied to a child acting on stage or in motion pictures or television",
+                "cited": [
+                  "Child_actor"
+                ],
+                "raw": "SUPPORTED\n\"The term child actor or child actress is generally applied to a child acting on stage or in motion pictures or television\""
+              },
+              {
+                "claim": "Katie Sagona acted in films and TV shows throughout the 1990s and 2000s",
+                "cited": [
+                  "Katie_Sagona"
+                ],
+                "raw": "SUPPORTED\n\n\"She acted in a series of films and TV shows throughout the 1990s and 2000s, including \"You've Got Mail\", \"In Dreams\", \"Grumpier Old Men\", \"Black and White\", and she also played Johnny Depp's daughter in \"Donnie Brasco\".\""
+              }
+            ]
+          }
+        },
+        "score": {
+          "csr": 0.3333333333333333,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 3,
+          "verdicts": [
+            {
+              "claim": "Katie Sagona is known as a child actress  because the term 'child actress' is applied to a child acting on stage or in motion pictures or television .",
+              "doc_id": "Child_actor",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "Katie Sagona is known as a child actress  because the term 'child actress' is applied to a child acting on stage or in motion pictures or television .",
+              "doc_id": "Katie_Sagona",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "She acted in films and TV shows throughout the 1990s and 2000s .",
+              "doc_id": "Katie_Sagona",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      },
+      "quote": {
+        "result": {
+          "question": "Katie sagona is known as what kind of actor because she was a child acting on stage or in motion pictures or television?",
+          "retrieved": [
+            {
+              "doc_id": "Child_actor",
+              "text": "The term child actor or child actress is generally applied to a child acting on stage or in motion pictures or television, but also to an adult who began his or her acting career as a child; to avoid confusion, the latter is also called a \"former child actor\".  Closely associated is teenage actor or teen actor, an actor who reached popularity as a teenager."
+            },
+            {
+              "doc_id": "Reiko_Mut\u014d",
+              "text": "Reiko Mut\u014d (\u6b66\u85e4 \u793c\u5b50 or \u6b66\u85e4 \u79ae\u5b50 , Mut\u014d Reiko , March 1, 1935 \u2013 October 29, 2006, born in Tokyo, Japan) was a Japanese voice actress.  She is best known for playing the voice of Elizabeth Taylor in Japanese dubbed television and films, and playing main characters in \"Marvelous Melmo\" (as Melmo), \"Astro Boy\" as Uran (Astro Girl in the English version), and \"Moomin\" (as Non Non).  As a child, she found she enjoyed acting after joining the child acting troupe Gekidan Komadori."
+            },
+            {
+              "doc_id": "Ivar_Brogger",
+              "text": "Ivar Brogger (born January 10, 1947) is an American actor of stage, motion pictures and television.  He is known for his appearances in several TV shows like \"24\", \"NCIS\", \"\", \"Private Practice\" and a recurring role in \"Invasion\".  He had small roles in motion pictures like \"Dreamgirls\", \"Ocean's Thirteen\" and \"Little Children\"."
+            },
+            {
+              "doc_id": "Katie_Sagona",
+              "text": "Katie Sagona (born November 26, 1989) is an American child actress.  She acted in a series of films and TV shows throughout the 1990s and 2000s, including \"You've Got Mail\", \"In Dreams\", \"Grumpier Old Men\", \"Black and White\", and she also played Johnny Depp's daughter in \"Donnie Brasco\".  She was a Ford Model and appeared in Italian Vogue, and in print for Versace among many others."
+            },
+            {
+              "doc_id": "Motion_Picture_Production_Code",
+              "text": "The Motion Picture Production Code was the set of industry moral guidelines that was applied to most United States motion pictures released by major studios from 1930 to 1968.  It is also popularly known as the Hays Code, after Will H. Hays, who was the president of the Motion Picture Producers and Distributors of America (MPPDA) from 1922 to 1945.  Under Hays' leadership, the MPPDA, later known as the Motion Picture Association of America (MPAA), adopted the Production Code in 1930 and began strictly enforcing it in 1934.  The Production Code spelled out what was acceptable and what was unacceptable content for motion pictures produced for a public audience in the United States."
+            }
+          ],
+          "answer": "Based on the provided sources, Katie Sagona is known as a \"child actress\" because \"a child acting on stage or in motion pictures or television\" is called a \"child actor or child actress\" [Child_actor], and Katie Sagona is identified as \"an American child actress\" who \"acted in a series of films and TV shows throughout the 1990s and 2000s\" [Katie_Sagona].",
+          "citations": [
+            "Child_actor",
+            "Katie_Sagona"
+          ],
+          "abstained": false,
+          "latency_s": 3.428680181503296,
+          "usage": {
+            "input_tokens": 1735,
+            "output_tokens": 220,
+            "n_calls": 2
+          },
+          "intermediate": {
+            "draft": "Based on the provided sources, Katie Sagona is known as a \"child actress\" because she was a child acting in motion pictures and television [Child_actor][Katie_Sagona]. The source on child actors states that the term \"child actor or child actress is generally applied to a child acting on stage or in motion pictures or television\" [Child_actor], and Katie Sagona's entry specifically identifies her as \"an American child actress\" who \"acted in a series of films and TV shows throughout the 1990s and 2000s\" [Katie_Sagona]."
+          }
+        },
+        "score": {
+          "csr": 0.0,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 2,
+          "verdicts": [
+            {
+              "claim": "Based on the provided sources, Katie Sagona is known as a \"child actress\" because \"a child acting on stage or in motion pictures or television\" is called a \"child actor or child actress\" , and Katie Sagona is identified as \"an American child actress\" who \"acted in a series of films and TV shows throughout the 1990s and 2000s\" .",
+              "doc_id": "Child_actor",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "Based on the provided sources, Katie Sagona is known as a \"child actress\" because \"a child acting on stage or in motion pictures or television\" is called a \"child actor or child actress\" , and Katie Sagona is identified as \"an American child actress\" who \"acted in a series of films and TV shows throughout the 1990s and 2000s\" .",
+              "doc_id": "Katie_Sagona",
+              "verdict": "PARTIAL"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "qid": "ho_005",
+    "question": "What was the name of the commander who captured all of the French ships that varied in size?",
+    "hard_case": false,
+    "gold_answer": "Joshua Rowley",
+    "modes": {
+      "baseline": {
+        "result": {
+          "question": "What was the name of the commander who captured all of the French ships that varied in size?",
+          "retrieved": [
+            {
+              "doc_id": "Action_of_18_November_1809",
+              "text": "Despite spirited resistance from the largest British merchant ship, \"Windham\", the failure of the other Indiamen to support their leader and the size and power of the French ships forced the British to withdraw: all the HEIC ships were subsequently captured by the larger, faster French warships.  A month later, Hamelin's raiding campaign skirted disaster when a winter hurricane on the voyage back to \u00cele de France almost wrecked his flagship \"V\u00e9nus\".  \"V\u00e9nus\" only survived with the co-operation of the British prisoners aboard, who brought the ship safely to port.  Only two of the captured Indiamen were successfully brought to Ile de France: the same storm that nearly destroyed \"V\u00e9nus\" scattered the squadron and its prizes, allowing a patrolling British frigate to recapture \"Windham\" just a few miles from the French island."
+            },
+            {
+              "doc_id": "Action_of_7_October_1795",
+              "text": "The Action of 7 October 1795 was a naval engagement of the French Revolutionary Wars during which a French squadron led by Rear-Admiral Joseph de Richery captured a large British convoy of thirty-one merchant vessels.  The British convoy, escorted by three ships of line and several frigates under Commodore Thomas Taylor, sailed from Gibraltar and were intercepted on 7 October by a French squadron, one of the two who managed that year to evade the British blockade of Toulon.  During the action the French ships captured a British 74-gun ship of line and all but one merchantmen.  Shortly after, they bore his prizes triumphantly in Cadiz.  Strangely it was not until 1812 when the Royal Navy decided to increase the number of escort vessels."
+            },
+            {
+              "doc_id": "Battle_of_Guadeloupe_(1779)",
+              "text": "The Battle of Guadeloupe or the Action of 21\u201322 December 1779 was a naval engagement that took place off the French island of Guadeloupe in the Caribbean during the Anglo-French War between three Royal Navy ships and three French Navy frigates.  The Royal Navy under Joshua Rowley sighted and promptly chased the French frigates, all of which were captured after a brief fight."
+            },
+            {
+              "doc_id": "Battle_of_Bishops_Court",
+              "text": "The Battle of Bishops Court, also known as The Defeat of Thurot, was a naval engagement that took place 28 February 1760, during the Seven Years' War, between three British ships and three French ships.  The French force under famed commander Fran\u00e7ois Thurot were brought to battle in the Irish sea between the Isle of Man and the coast of Ireland at 9 am.  After a close-fought action, Thurot's force was battered into submission, with his ships dismasted and reduced to a sinking condition.  Thurot was shot through the heart and died during the action.  The British took all three French ships, completing victory."
+            },
+            {
+              "doc_id": "Battle_of_Texel_(1694)",
+              "text": "The Battle of Texel was a sea battle fought during the Nine Years' War on 29 June 1694, when a force of 7 French ships, under Jean Bart, recaptured a French convoy, which had earlier that month been taken by the Dutch, and captured 3 ships of the 8-ship escorting force under Hidde de Vries.  De Vries was captured by the French, but shortly after died of wounds."
+            }
+          ],
+          "answer": "I cannot answer from these sources. While there are several naval engagements described involving the capture of French ships, the question asks about a commander who captured \"all of the French ships that varied in size,\" which is too vague and doesn't clearly match a single engagement in the provided sources. Multiple sources describe commanders capturing French ships (Joshua Rowley at Guadeloupe, the British at Bishops Court), but none specifically emphasize that the captured French ships \"varied in size\" as a distinguishing characteristic.",
+          "citations": [],
+          "abstained": false,
+          "latency_s": 1.923945426940918,
+          "usage": {
+            "input_tokens": 903,
+            "output_tokens": 110,
+            "n_calls": 1
+          },
+          "intermediate": {}
+        },
+        "score": {
+          "csr": null,
+          "citation_precision": null,
+          "abstained": false,
+          "n_citations": 0,
+          "verdicts": []
+        }
+      },
+      "cove": {
+        "result": {
+          "question": "What was the name of the commander who captured all of the French ships that varied in size?",
+          "retrieved": [
+            {
+              "doc_id": "Action_of_18_November_1809",
+              "text": "Despite spirited resistance from the largest British merchant ship, \"Windham\", the failure of the other Indiamen to support their leader and the size and power of the French ships forced the British to withdraw: all the HEIC ships were subsequently captured by the larger, faster French warships.  A month later, Hamelin's raiding campaign skirted disaster when a winter hurricane on the voyage back to \u00cele de France almost wrecked his flagship \"V\u00e9nus\".  \"V\u00e9nus\" only survived with the co-operation of the British prisoners aboard, who brought the ship safely to port.  Only two of the captured Indiamen were successfully brought to Ile de France: the same storm that nearly destroyed \"V\u00e9nus\" scattered the squadron and its prizes, allowing a patrolling British frigate to recapture \"Windham\" just a few miles from the French island."
+            },
+            {
+              "doc_id": "Action_of_7_October_1795",
+              "text": "The Action of 7 October 1795 was a naval engagement of the French Revolutionary Wars during which a French squadron led by Rear-Admiral Joseph de Richery captured a large British convoy of thirty-one merchant vessels.  The British convoy, escorted by three ships of line and several frigates under Commodore Thomas Taylor, sailed from Gibraltar and were intercepted on 7 October by a French squadron, one of the two who managed that year to evade the British blockade of Toulon.  During the action the French ships captured a British 74-gun ship of line and all but one merchantmen.  Shortly after, they bore his prizes triumphantly in Cadiz.  Strangely it was not until 1812 when the Royal Navy decided to increase the number of escort vessels."
+            },
+            {
+              "doc_id": "Battle_of_Guadeloupe_(1779)",
+              "text": "The Battle of Guadeloupe or the Action of 21\u201322 December 1779 was a naval engagement that took place off the French island of Guadeloupe in the Caribbean during the Anglo-French War between three Royal Navy ships and three French Navy frigates.  The Royal Navy under Joshua Rowley sighted and promptly chased the French frigates, all of which were captured after a brief fight."
+            },
+            {
+              "doc_id": "Battle_of_Bishops_Court",
+              "text": "The Battle of Bishops Court, also known as The Defeat of Thurot, was a naval engagement that took place 28 February 1760, during the Seven Years' War, between three British ships and three French ships.  The French force under famed commander Fran\u00e7ois Thurot were brought to battle in the Irish sea between the Isle of Man and the coast of Ireland at 9 am.  After a close-fought action, Thurot's force was battered into submission, with his ships dismasted and reduced to a sinking condition.  Thurot was shot through the heart and died during the action.  The British took all three French ships, completing victory."
+            },
+            {
+              "doc_id": "Battle_of_Texel_(1694)",
+              "text": "The Battle of Texel was a sea battle fought during the Nine Years' War on 29 June 1694, when a force of 7 French ships, under Jean Bart, recaptured a French convoy, which had earlier that month been taken by the Dutch, and captured 3 ships of the 8-ship escorting force under Hidde de Vries.  De Vries was captured by the French, but shortly after died of wounds."
+            }
+          ],
+          "answer": "I cannot answer reliably from these sources.",
+          "citations": [],
+          "abstained": true,
+          "latency_s": 3.039827585220337,
+          "usage": {
+            "input_tokens": 1064,
+            "output_tokens": 172,
+            "n_calls": 2
+          },
+          "intermediate": {
+            "draft": "I cannot answer from these sources. While the sources describe several naval engagements where ships were captured, the question asks about a commander who captured \"all of the French ships that varied in size,\" which is ambiguous and doesn't clearly match a single engagement described in the provided documents. The sources describe various commanders capturing French ships in different actions, but none of the passages explicitly state that a particular commander captured French ships that \"varied in size\" as a distinguishing feature of that engagement.",
+            "verifications": []
+          }
+        },
+        "score": {
+          "csr": null,
+          "citation_precision": null,
+          "abstained": true,
+          "n_citations": 0,
+          "verdicts": []
+        }
+      },
+      "quote": {
+        "result": {
+          "question": "What was the name of the commander who captured all of the French ships that varied in size?",
+          "retrieved": [
+            {
+              "doc_id": "Action_of_18_November_1809",
+              "text": "Despite spirited resistance from the largest British merchant ship, \"Windham\", the failure of the other Indiamen to support their leader and the size and power of the French ships forced the British to withdraw: all the HEIC ships were subsequently captured by the larger, faster French warships.  A month later, Hamelin's raiding campaign skirted disaster when a winter hurricane on the voyage back to \u00cele de France almost wrecked his flagship \"V\u00e9nus\".  \"V\u00e9nus\" only survived with the co-operation of the British prisoners aboard, who brought the ship safely to port.  Only two of the captured Indiamen were successfully brought to Ile de France: the same storm that nearly destroyed \"V\u00e9nus\" scattered the squadron and its prizes, allowing a patrolling British frigate to recapture \"Windham\" just a few miles from the French island."
+            },
+            {
+              "doc_id": "Action_of_7_October_1795",
+              "text": "The Action of 7 October 1795 was a naval engagement of the French Revolutionary Wars during which a French squadron led by Rear-Admiral Joseph de Richery captured a large British convoy of thirty-one merchant vessels.  The British convoy, escorted by three ships of line and several frigates under Commodore Thomas Taylor, sailed from Gibraltar and were intercepted on 7 October by a French squadron, one of the two who managed that year to evade the British blockade of Toulon.  During the action the French ships captured a British 74-gun ship of line and all but one merchantmen.  Shortly after, they bore his prizes triumphantly in Cadiz.  Strangely it was not until 1812 when the Royal Navy decided to increase the number of escort vessels."
+            },
+            {
+              "doc_id": "Battle_of_Guadeloupe_(1779)",
+              "text": "The Battle of Guadeloupe or the Action of 21\u201322 December 1779 was a naval engagement that took place off the French island of Guadeloupe in the Caribbean during the Anglo-French War between three Royal Navy ships and three French Navy frigates.  The Royal Navy under Joshua Rowley sighted and promptly chased the French frigates, all of which were captured after a brief fight."
+            },
+            {
+              "doc_id": "Battle_of_Bishops_Court",
+              "text": "The Battle of Bishops Court, also known as The Defeat of Thurot, was a naval engagement that took place 28 February 1760, during the Seven Years' War, between three British ships and three French ships.  The French force under famed commander Fran\u00e7ois Thurot were brought to battle in the Irish sea between the Isle of Man and the coast of Ireland at 9 am.  After a close-fought action, Thurot's force was battered into submission, with his ships dismasted and reduced to a sinking condition.  Thurot was shot through the heart and died during the action.  The British took all three French ships, completing victory."
+            },
+            {
+              "doc_id": "Battle_of_Texel_(1694)",
+              "text": "The Battle of Texel was a sea battle fought during the Nine Years' War on 29 June 1694, when a force of 7 French ships, under Jean Bart, recaptured a French convoy, which had earlier that month been taken by the Dutch, and captured 3 ships of the 8-ship escorting force under Hidde de Vries.  De Vries was captured by the French, but shortly after died of wounds."
+            }
+          ],
+          "answer": "I cannot answer from these sources.",
+          "citations": [],
+          "abstained": true,
+          "latency_s": 2.9902751445770264,
+          "usage": {
+            "input_tokens": 2048,
+            "output_tokens": 209,
+            "n_calls": 2
+          },
+          "intermediate": {
+            "draft": "I cannot answer from these sources. While several sources describe naval engagements where commanders captured French ships, the phrase \"French ships that varied in size\" is ambiguous and doesn't clearly match any single action described. \n\nFor example:\n- Joshua Rowley captured three French frigates at the Battle of Guadeloupe [Battle_of_Guadeloupe_(1779)]\n- Fran\u00e7ois Thurot's three French ships were captured at the Battle of Bishops Court, though Thurot was the French commander, not the British one [Battle_of_Bishops_Court]\n- Jean Bart captured ships in the Battle of Texel [Battle_of_Texel_(1694)]\n\nNone of these sources explicitly state that the captured French ships \"varied in size,\" nor do they clearly identify which specific action you're referring to. I would need clarification on which naval engagement you're asking about."
+          }
+        },
+        "score": {
+          "csr": null,
+          "citation_precision": null,
+          "abstained": true,
+          "n_citations": 0,
+          "verdicts": []
+        }
+      }
+    }
+  },
+  {
+    "qid": "ho_006",
+    "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+    "hard_case": false,
+    "gold_answer": "New York City",
+    "modes": {
+      "baseline": {
+        "result": {
+          "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+          "retrieved": [
+            {
+              "doc_id": "Ralph_Hefferline",
+              "text": "Ralph Franklin Hefferline (15 February 1910 in Muncie, Indiana \u2013 16 March 1974) was a psychology professor at Columbia University."
+            },
+            {
+              "doc_id": "Princeton_Neuroscience_Institute",
+              "text": "The Princeton Neuroscience Institute (PNI) is a center for neuroscience research at Princeton University.  PNI was created in 2006 as a partnership of Princeton University's departments of Psychology and Molecular Biology.  This partnership was led by psychology professor Jonathan Cohen and molecular biology professor David Tank, who continue to serve as Co-Directors of the Institute.  In 2014, PNI moved into a dedicated research complex that houses both PNI and the Department of Psychology.  The building is 248,00 square feet, and was designed by Rafael Moneo to meet LEED Silver certification."
+            },
+            {
+              "doc_id": "Kimberly_Young",
+              "text": "Kimberly Young is a psychologist and world expert on Internet addiction disorder and online behaviour.  She founded the Center for Internet Addiction in 1995 and was a psychology professor at the University of Pittsburgh at Bradford with a PhD in Clinical Psychology.  Young is currently a professor of management scientists at St. Bonaventure University.  She has published numerous journal articles and books chapters and served as an expert witness regarding her pioneer research including testimony for the Child Protection Online Act Congressional Committee.  Young is a member of the American Psychological Association, the Pennsylvania Psychological Association, and a founding member of the International Society of Mental Health Online."
+            },
+            {
+              "doc_id": "E._Mavis_Hetherington",
+              "text": "E. Mavis Hetherington (born November 27, 1926) is a retired psychology professor at the University of Virginia.  She is a leading researcher on the impacts of divorce, family as units, and the development of children.  Throughout her career she has published more than 200 articles and edited 13 books.  While a professor at the University of Virginia she helped improve their psychology department, making them a nationally ranked program.  Hetherington also introduced a new method of analyzing observational research as well as help open the field of psychology to women by overcoming discrimination in her early career."
+            },
+            {
+              "doc_id": "Abraham_Maslow",
+              "text": "Abraham Harold Maslow ( ; April 1, 1908\u00a0\u2013 June 8, 1970) was an American psychologist who was best known for creating Maslow's hierarchy of needs, a theory of psychological health predicated on fulfilling innate human needs in priority, culminating in self-actualization.  Maslow was a psychology professor at Alliant International University, Brandeis University, Brooklyn College, New School for Social Research, and Columbia University.  He stressed the importance of focusing on the positive qualities in people, as opposed to treating them as a \"bag of symptoms.\"  A \"Review of General Psychology\" survey, published in 2002, ranked Maslow as the tenth most cited psychologist of the 20th century."
+            }
+          ],
+          "answer": "According to the sources provided, Ralph Hefferline was a psychology professor at Columbia University [Ralph_Hefferline]. However, the sources do not specify what city Columbia University is located in, so I cannot answer the complete question about the city from these sources alone.",
+          "citations": [
+            "Ralph_Hefferline"
+          ],
+          "abstained": false,
+          "latency_s": 1.0229921340942383,
+          "usage": {
+            "input_tokens": 781,
+            "output_tokens": 59,
+            "n_calls": 1
+          },
+          "intermediate": {}
+        },
+        "score": {
+          "csr": 1.0,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 1,
+          "verdicts": [
+            {
+              "claim": "According to the sources provided, Ralph Hefferline was a psychology professor at Columbia University .",
+              "doc_id": "Ralph_Hefferline",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      },
+      "cove": {
+        "result": {
+          "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+          "retrieved": [
+            {
+              "doc_id": "Ralph_Hefferline",
+              "text": "Ralph Franklin Hefferline (15 February 1910 in Muncie, Indiana \u2013 16 March 1974) was a psychology professor at Columbia University."
+            },
+            {
+              "doc_id": "Princeton_Neuroscience_Institute",
+              "text": "The Princeton Neuroscience Institute (PNI) is a center for neuroscience research at Princeton University.  PNI was created in 2006 as a partnership of Princeton University's departments of Psychology and Molecular Biology.  This partnership was led by psychology professor Jonathan Cohen and molecular biology professor David Tank, who continue to serve as Co-Directors of the Institute.  In 2014, PNI moved into a dedicated research complex that houses both PNI and the Department of Psychology.  The building is 248,00 square feet, and was designed by Rafael Moneo to meet LEED Silver certification."
+            },
+            {
+              "doc_id": "Kimberly_Young",
+              "text": "Kimberly Young is a psychologist and world expert on Internet addiction disorder and online behaviour.  She founded the Center for Internet Addiction in 1995 and was a psychology professor at the University of Pittsburgh at Bradford with a PhD in Clinical Psychology.  Young is currently a professor of management scientists at St. Bonaventure University.  She has published numerous journal articles and books chapters and served as an expert witness regarding her pioneer research including testimony for the Child Protection Online Act Congressional Committee.  Young is a member of the American Psychological Association, the Pennsylvania Psychological Association, and a founding member of the International Society of Mental Health Online."
+            },
+            {
+              "doc_id": "E._Mavis_Hetherington",
+              "text": "E. Mavis Hetherington (born November 27, 1926) is a retired psychology professor at the University of Virginia.  She is a leading researcher on the impacts of divorce, family as units, and the development of children.  Throughout her career she has published more than 200 articles and edited 13 books.  While a professor at the University of Virginia she helped improve their psychology department, making them a nationally ranked program.  Hetherington also introduced a new method of analyzing observational research as well as help open the field of psychology to women by overcoming discrimination in her early career."
+            },
+            {
+              "doc_id": "Abraham_Maslow",
+              "text": "Abraham Harold Maslow ( ; April 1, 1908\u00a0\u2013 June 8, 1970) was an American psychologist who was best known for creating Maslow's hierarchy of needs, a theory of psychological health predicated on fulfilling innate human needs in priority, culminating in self-actualization.  Maslow was a psychology professor at Alliant International University, Brandeis University, Brooklyn College, New School for Social Research, and Columbia University.  He stressed the importance of focusing on the positive qualities in people, as opposed to treating them as a \"bag of symptoms.\"  A \"Review of General Psychology\" survey, published in 2002, ranked Maslow as the tenth most cited psychologist of the 20th century."
+            }
+          ],
+          "answer": "I cannot answer from these sources. While the provided source confirms that Ralph Hefferline was a psychology professor at Columbia University [Ralph_Hefferline], the source does not specify the city where Columbia University is located.",
+          "citations": [
+            "Ralph_Hefferline"
+          ],
+          "abstained": false,
+          "latency_s": 4.810809373855591,
+          "usage": {
+            "input_tokens": 1273,
+            "output_tokens": 256,
+            "n_calls": 5
+          },
+          "intermediate": {
+            "draft": "According to the sources, Ralph Hefferline was a psychology professor at Columbia University [Ralph_Hefferline]. However, the sources provided do not specify what city Columbia University is located in, so I cannot answer the complete question about the city from these sources alone.",
+            "verifications": [
+              {
+                "claim": "Ralph Hefferline was a psychology professor at Columbia University",
+                "cited": [
+                  "Ralph_Hefferline"
+                ],
+                "raw": "SUPPORTED\n\"Ralph Franklin Hefferline (15 February 1910 in Muncie, Indiana \u2013 16 March 1974) was a psychology professor at Columbia University.\""
+              },
+              {
+                "claim": "The sources provided do not specify what city Columbia University is located in",
+                "cited": [],
+                "raw": "NOT_SUPPORTED\n\nThere are no sources provided to evaluate against the claim."
+              }
+            ]
+          }
+        },
+        "score": {
+          "csr": 1.0,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 1,
+          "verdicts": [
+            {
+              "claim": "While the provided source confirms that Ralph Hefferline was a psychology professor at Columbia University , the source does not specify the city where Columbia University is located.",
+              "doc_id": "Ralph_Hefferline",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      },
+      "quote": {
+        "result": {
+          "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+          "retrieved": [
+            {
+              "doc_id": "Ralph_Hefferline",
+              "text": "Ralph Franklin Hefferline (15 February 1910 in Muncie, Indiana \u2013 16 March 1974) was a psychology professor at Columbia University."
+            },
+            {
+              "doc_id": "Princeton_Neuroscience_Institute",
+              "text": "The Princeton Neuroscience Institute (PNI) is a center for neuroscience research at Princeton University.  PNI was created in 2006 as a partnership of Princeton University's departments of Psychology and Molecular Biology.  This partnership was led by psychology professor Jonathan Cohen and molecular biology professor David Tank, who continue to serve as Co-Directors of the Institute.  In 2014, PNI moved into a dedicated research complex that houses both PNI and the Department of Psychology.  The building is 248,00 square feet, and was designed by Rafael Moneo to meet LEED Silver certification."
+            },
+            {
+              "doc_id": "Kimberly_Young",
+              "text": "Kimberly Young is a psychologist and world expert on Internet addiction disorder and online behaviour.  She founded the Center for Internet Addiction in 1995 and was a psychology professor at the University of Pittsburgh at Bradford with a PhD in Clinical Psychology.  Young is currently a professor of management scientists at St. Bonaventure University.  She has published numerous journal articles and books chapters and served as an expert witness regarding her pioneer research including testimony for the Child Protection Online Act Congressional Committee.  Young is a member of the American Psychological Association, the Pennsylvania Psychological Association, and a founding member of the International Society of Mental Health Online."
+            },
+            {
+              "doc_id": "E._Mavis_Hetherington",
+              "text": "E. Mavis Hetherington (born November 27, 1926) is a retired psychology professor at the University of Virginia.  She is a leading researcher on the impacts of divorce, family as units, and the development of children.  Throughout her career she has published more than 200 articles and edited 13 books.  While a professor at the University of Virginia she helped improve their psychology department, making them a nationally ranked program.  Hetherington also introduced a new method of analyzing observational research as well as help open the field of psychology to women by overcoming discrimination in her early career."
+            },
+            {
+              "doc_id": "Abraham_Maslow",
+              "text": "Abraham Harold Maslow ( ; April 1, 1908\u00a0\u2013 June 8, 1970) was an American psychologist who was best known for creating Maslow's hierarchy of needs, a theory of psychological health predicated on fulfilling innate human needs in priority, culminating in self-actualization.  Maslow was a psychology professor at Alliant International University, Brandeis University, Brooklyn College, New School for Social Research, and Columbia University.  He stressed the importance of focusing on the positive qualities in people, as opposed to treating them as a \"bag of symptoms.\"  A \"Review of General Psychology\" survey, published in 2002, ranked Maslow as the tenth most cited psychologist of the 20th century."
+            }
+          ],
+          "answer": "According to the sources provided, Ralph Hefferline was a psychology professor at Columbia University [Ralph_Hefferline].",
+          "citations": [
+            "Ralph_Hefferline"
+          ],
+          "abstained": false,
+          "latency_s": 2.0259718894958496,
+          "usage": {
+            "input_tokens": 1662,
+            "output_tokens": 86,
+            "n_calls": 2
+          },
+          "intermediate": {
+            "draft": "According to the sources provided, Ralph Hefferline was a psychology professor at Columbia University [Ralph_Hefferline]. However, the sources do not specify what city Columbia University is located in, so I cannot answer that part of your question from these sources."
+          }
+        },
+        "score": {
+          "csr": 1.0,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 1,
+          "verdicts": [
+            {
+              "claim": "According to the sources provided, Ralph Hefferline was a psychology professor at Columbia University .",
+              "doc_id": "Ralph_Hefferline",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "qid": "ho_007",
+    "question": "Both Bo Diddley and The Yardbirds played which common genre of music during their careers?",
+    "hard_case": false,
+    "gold_answer": "rock and roll",
+    "modes": {
+      "baseline": {
+        "result": {
+          "question": "Both Bo Diddley and The Yardbirds played which common genre of music during their careers?",
+          "retrieved": [
+            {
+              "doc_id": "Bo_Diddley",
+              "text": "Ellas McDaniel (born Ellas Otha Bates, December 30, 1928 \u2013 June 2, 2008), known as Bo Diddley, was an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll, and influenced artists including Elvis Presley, Buddy Holly, the Beatles, the Rolling Stones, the Yardbirds, Eric Clapton, the Who, Jimi Hendrix, George Thorogood, Parliament-Funkadelic, and The Clash."
+            },
+            {
+              "doc_id": "Peggy_Jones_(musician)",
+              "text": "Peggy Jones or Peggy Malone (married name) (July 19, 1940 \u2013 September 16, 2015), known on stage as Lady Bo in recognition of her relationship with Bo Diddley, was an American musician.  A pioneer of rock and roll, Jones played rhythm guitar in Bo Diddley's band in the late 1950s and early 1960s, becoming one of the first (perhaps \"the\" first) female rock guitarists in a highly visible rock band, and was sometimes called the \"Queen Mother of Guitar\"."
+            },
+            {
+              "doc_id": "Bo_Diddley_Is_a_Gunslinger",
+              "text": "Bo Diddley Is a Gunslinger is the fifth studio album by American rock and roll pioneer Bo Diddley released in December 1960 by Checker Records.  The album title comes from the album's first track called \"Gunslinger\" and the cover art has Bo Diddley dressed in Western-style clothing.  The songs for \"Bo Diddley Is a Gunslinger\" were recorded from October 1959 to February 1960.  Several tracks of interest are \"Sixteen Tons\" which Bo was supposed to perform on The Ed Sullivan Show, the title track, and \"Diddling\" (an instrumental between guitar and saxophone)."
+            },
+            {
+              "doc_id": "Who_Do_You_Love?_(Bo_Diddley_song)",
+              "text": "\"Who Do You Love?\"  is a song written by American rock and roll pioneer Bo Diddley.  Recorded in 1956, it is one of his most popular and enduring works.  The song represents one of Bo Diddley's strongest lyrical efforts and uses a combination of hoodoo-type imagery and boasting.  It is an upbeat rocker, but the original did not use the signature Bo Diddley beat rhythm."
+            },
+            {
+              "doc_id": "Bo_Diddley_(1958_album)",
+              "text": "Bo Diddley is a compilation album by American rock and roll musician Bo Diddley.  It is a compilation of his singles since 1955.  It collects several of his most influential and enduring songs.  It was released on the Chess label in 1958.  In 2012, the album was ranked #216 on Rolling Stone's 500 Greatest Albums of All-Time list alongside Go Bo Diddley."
+            }
+          ],
+          "answer": "Based on the provided sources, both Bo Diddley and The Yardbirds played rock and roll. Bo Diddley was \"an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll\" [Bo_Diddley], and he is described as a \"rock and roll pioneer\" [Bo_Diddley_Is_a_Gunslinger]. The Yardbirds are mentioned among the artists influenced by Bo Diddley [Bo_Diddley], and given that they were influenced by a rock and roll pioneer, they would have been part of that same rock and roll genre.",
+          "citations": [
+            "Bo_Diddley",
+            "Bo_Diddley_Is_a_Gunslinger",
+            "Bo_Diddley"
+          ],
+          "abstained": false,
+          "latency_s": 2.5708906650543213,
+          "usage": {
+            "input_tokens": 811,
+            "output_tokens": 152,
+            "n_calls": 1
+          },
+          "intermediate": {}
+        },
+        "score": {
+          "csr": 0.0,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 3,
+          "verdicts": [
+            {
+              "claim": "Bo Diddley was \"an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll\" , and he is described as a \"rock and roll pioneer\" .",
+              "doc_id": "Bo_Diddley",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "Bo Diddley was \"an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll\" , and he is described as a \"rock and roll pioneer\" .",
+              "doc_id": "Bo_Diddley_Is_a_Gunslinger",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "The Yardbirds are mentioned among the artists influenced by Bo Diddley , and given that they were influenced by a rock and roll pioneer, they would have been part of that same rock and roll genre.",
+              "doc_id": "Bo_Diddley",
+              "verdict": "PARTIAL"
+            }
+          ]
+        }
+      },
+      "cove": {
+        "result": {
+          "question": "Both Bo Diddley and The Yardbirds played which common genre of music during their careers?",
+          "retrieved": [
+            {
+              "doc_id": "Bo_Diddley",
+              "text": "Ellas McDaniel (born Ellas Otha Bates, December 30, 1928 \u2013 June 2, 2008), known as Bo Diddley, was an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll, and influenced artists including Elvis Presley, Buddy Holly, the Beatles, the Rolling Stones, the Yardbirds, Eric Clapton, the Who, Jimi Hendrix, George Thorogood, Parliament-Funkadelic, and The Clash."
+            },
+            {
+              "doc_id": "Peggy_Jones_(musician)",
+              "text": "Peggy Jones or Peggy Malone (married name) (July 19, 1940 \u2013 September 16, 2015), known on stage as Lady Bo in recognition of her relationship with Bo Diddley, was an American musician.  A pioneer of rock and roll, Jones played rhythm guitar in Bo Diddley's band in the late 1950s and early 1960s, becoming one of the first (perhaps \"the\" first) female rock guitarists in a highly visible rock band, and was sometimes called the \"Queen Mother of Guitar\"."
+            },
+            {
+              "doc_id": "Bo_Diddley_Is_a_Gunslinger",
+              "text": "Bo Diddley Is a Gunslinger is the fifth studio album by American rock and roll pioneer Bo Diddley released in December 1960 by Checker Records.  The album title comes from the album's first track called \"Gunslinger\" and the cover art has Bo Diddley dressed in Western-style clothing.  The songs for \"Bo Diddley Is a Gunslinger\" were recorded from October 1959 to February 1960.  Several tracks of interest are \"Sixteen Tons\" which Bo was supposed to perform on The Ed Sullivan Show, the title track, and \"Diddling\" (an instrumental between guitar and saxophone)."
+            },
+            {
+              "doc_id": "Who_Do_You_Love?_(Bo_Diddley_song)",
+              "text": "\"Who Do You Love?\"  is a song written by American rock and roll pioneer Bo Diddley.  Recorded in 1956, it is one of his most popular and enduring works.  The song represents one of Bo Diddley's strongest lyrical efforts and uses a combination of hoodoo-type imagery and boasting.  It is an upbeat rocker, but the original did not use the signature Bo Diddley beat rhythm."
+            },
+            {
+              "doc_id": "Bo_Diddley_(1958_album)",
+              "text": "Bo Diddley is a compilation album by American rock and roll musician Bo Diddley.  It is a compilation of his singles since 1955.  It collects several of his most influential and enduring songs.  It was released on the Chess label in 1958.  In 2012, the album was ranked #216 on Rolling Stone's 500 Greatest Albums of All-Time list alongside Go Bo Diddley."
+            }
+          ],
+          "answer": "Based on the provided sources, both Bo Diddley and The Yardbirds were connected to **rock and roll**.\n\nBo Diddley was an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll [Bo_Diddley]. The Yardbirds were part of the rock and roll tradition [Bo_Diddley], and they were influenced by Bo Diddley [Bo_Diddley].\n\nTherefore, rock and roll is the common genre that connects both artists during their careers.",
+          "citations": [
+            "Bo_Diddley",
+            "Bo_Diddley",
+            "Bo_Diddley"
+          ],
+          "abstained": false,
+          "latency_s": 7.007251024246216,
+          "usage": {
+            "input_tokens": 1966,
+            "output_tokens": 658,
+            "n_calls": 6
+          },
+          "intermediate": {
+            "draft": "Based on the provided sources, both Bo Diddley and The Yardbirds played **rock and roll**.\n\nBo Diddley is described as \"an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll\" [Bo_Diddley], and The Yardbirds are mentioned as one of the artists he influenced [Bo_Diddley]. While the sources don't explicitly state The Yardbirds' genre, the fact that they are listed among the rock and roll/rock artists influenced by Bo Diddley [Bo_Diddley] indicates they were part of the same rock and roll tradition.",
+            "verifications": [
+              {
+                "claim": "Bo Diddley is an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll",
+                "cited": [
+                  "Bo_Diddley"
+                ],
+                "raw": "SUPPORTED\n\n\"Ellas McDaniel (born Ellas Otha Bates, December 30, 1928 \u2013 June 2, 2008), known as Bo Diddley, was an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll\""
+              },
+              {
+                "claim": "The Yardbirds were influenced by Bo Diddley",
+                "cited": [
+                  "Bo_Diddley"
+                ],
+                "raw": "SUPPORTED\n\n\"influenced artists including Elvis Presley, Buddy Holly, the Beatles, the Rolling Stones, the Yardbirds, Eric Clapton, the Who, Jimi Hendrix, George Thorogood, Parliament-Funkadelic, and The Clash.\""
+              },
+              {
+                "claim": "The Yardbirds were part of the rock and roll tradition",
+                "cited": [
+                  "Bo_Diddley"
+                ],
+                "raw": "SUPPORTED\n\n\"influenced artists including Elvis Presley, Buddy Holly, the Beatles, the Rolling Stones, the Yardbirds, Eric Clapton, the Who, Jimi Hendrix, George Thorogood, Parliament-Funkadelic, and The Clash.\""
+              }
+            ]
+          }
+        },
+        "score": {
+          "csr": 0.5,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 2,
+          "verdicts": [
+            {
+              "claim": "Bo Diddley was an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll .",
+              "doc_id": "Bo_Diddley",
+              "verdict": "SUPPORTED"
+            },
+            {
+              "claim": "The Yardbirds were part of the rock and roll tradition , and they were influenced by Bo Diddley .",
+              "doc_id": "Bo_Diddley",
+              "verdict": "PARTIAL"
+            }
+          ]
+        }
+      },
+      "quote": {
+        "result": {
+          "question": "Both Bo Diddley and The Yardbirds played which common genre of music during their careers?",
+          "retrieved": [
+            {
+              "doc_id": "Bo_Diddley",
+              "text": "Ellas McDaniel (born Ellas Otha Bates, December 30, 1928 \u2013 June 2, 2008), known as Bo Diddley, was an American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll, and influenced artists including Elvis Presley, Buddy Holly, the Beatles, the Rolling Stones, the Yardbirds, Eric Clapton, the Who, Jimi Hendrix, George Thorogood, Parliament-Funkadelic, and The Clash."
+            },
+            {
+              "doc_id": "Peggy_Jones_(musician)",
+              "text": "Peggy Jones or Peggy Malone (married name) (July 19, 1940 \u2013 September 16, 2015), known on stage as Lady Bo in recognition of her relationship with Bo Diddley, was an American musician.  A pioneer of rock and roll, Jones played rhythm guitar in Bo Diddley's band in the late 1950s and early 1960s, becoming one of the first (perhaps \"the\" first) female rock guitarists in a highly visible rock band, and was sometimes called the \"Queen Mother of Guitar\"."
+            },
+            {
+              "doc_id": "Bo_Diddley_Is_a_Gunslinger",
+              "text": "Bo Diddley Is a Gunslinger is the fifth studio album by American rock and roll pioneer Bo Diddley released in December 1960 by Checker Records.  The album title comes from the album's first track called \"Gunslinger\" and the cover art has Bo Diddley dressed in Western-style clothing.  The songs for \"Bo Diddley Is a Gunslinger\" were recorded from October 1959 to February 1960.  Several tracks of interest are \"Sixteen Tons\" which Bo was supposed to perform on The Ed Sullivan Show, the title track, and \"Diddling\" (an instrumental between guitar and saxophone)."
+            },
+            {
+              "doc_id": "Who_Do_You_Love?_(Bo_Diddley_song)",
+              "text": "\"Who Do You Love?\"  is a song written by American rock and roll pioneer Bo Diddley.  Recorded in 1956, it is one of his most popular and enduring works.  The song represents one of Bo Diddley's strongest lyrical efforts and uses a combination of hoodoo-type imagery and boasting.  It is an upbeat rocker, but the original did not use the signature Bo Diddley beat rhythm."
+            },
+            {
+              "doc_id": "Bo_Diddley_(1958_album)",
+              "text": "Bo Diddley is a compilation album by American rock and roll musician Bo Diddley.  It is a compilation of his singles since 1955.  It collects several of his most influential and enduring songs.  It was released on the Chess label in 1958.  In 2012, the album was ranked #216 on Rolling Stone's 500 Greatest Albums of All-Time list alongside Go Bo Diddley."
+            }
+          ],
+          "answer": "I cannot answer from these sources.\n\nWhile the sources confirm that Bo Diddley influenced The Yardbirds [Bo_Diddley], they do not provide information about what genres The Yardbirds performed or what musical genre(s) they shared with Bo Diddley.",
+          "citations": [],
+          "abstained": true,
+          "latency_s": 2.7397985458374023,
+          "usage": {
+            "input_tokens": 1788,
+            "output_tokens": 194,
+            "n_calls": 2
+          },
+          "intermediate": {
+            "draft": "Based on the provided sources, I cannot definitively answer this question. \n\nThe sources confirm that Bo Diddley was an \"American R&B singer, guitarist, songwriter and music producer who played a key role in the transition from the blues to rock and roll\" and influenced The Yardbirds [Bo_Diddley]. However, the sources do not provide information about what genres The Yardbirds themselves performed. While Bo Diddley is described as a rock and roll pioneer, the sources do not explicitly state which genre(s) both artists shared in common."
+          }
+        },
+        "score": {
+          "csr": null,
+          "citation_precision": null,
+          "abstained": true,
+          "n_citations": 0,
+          "verdicts": []
+        }
+      }
+    }
+  },
+  {
+    "qid": "ho_008",
+    "question": "WHere are both Sanming and Jiutai District located?",
+    "hard_case": false,
+    "gold_answer": "China",
+    "modes": {
+      "baseline": {
+        "result": {
+          "question": "WHere are both Sanming and Jiutai District located?",
+          "retrieved": [
+            {
+              "doc_id": "Jiutai_District",
+              "text": "Jiutai () is a district under the jurisdiction of Changchun, the capital of Jilin province, People's Republic of China.  The district is surrounded by agricultural areas and is located around 50 km northeast of downtown Changchun.  Coal mining also is present in Jiutai.  It borders Dehui to the north, Erdao District to the southwest, Kuancheng District to the west, as well as the prefecture-level city of Jilin to the south and east."
+            },
+            {
+              "doc_id": "Kuancheng_District",
+              "text": "Kuancheng District () is one of six districts of Changchun, the capital of Jilin province, People's Republic of China.  It is part of Changchun's main urban area, located north of downtown.  It borders Dehui to the northeast, Jiutai to the east, Erdao District to the southeast, Nanguan and Chaoyang Districts to the south, Luyuan District to the southwest, and Nong'an County to the northwest."
+            },
+            {
+              "doc_id": "Nanping",
+              "text": "Nanping () is a third-tier prefecture-level city in northwestern Fujian Province, China.  It borders Ningde City to the east, Sanming City to the south, and the provinces of Zhejiang and Jiangxi to the north and west respectively.  Part of the famous Wuyi Mountains range is located in this prefecture.  Its population was 2,645,549 at the 2010 census whom 467,875 lived in the built-up (or metro) area made up of Yanping urban district."
+            },
+            {
+              "doc_id": "Dehui",
+              "text": "Dehui () is a county-level city under the jurisdiction of Changchun, the capital of Jilin province, People's Republic of China, located in the middle of the Songliao Plain.  It has a total population of 906,000 and a rural population of 753,000.  Composed of 10 towns, 4 townships and 4 subdistricts, under which there are 308 villages, it is around 80 km north-northeast of central Changchun.  It borders Yushu to the northeast, Jiutai to the south, Kuancheng District to the southwest, Nong'an County to the west, as well as the prefecture-level cities of Jilin to the southeast and Songyuan to the northwest."
+            },
+            {
+              "doc_id": "Sherwood_Equal_Rights_Historic_District",
+              "text": "Sherwood Equal Rights Historic District is a national historic district located at Sherwood in Cayuga County, New York.  The district consists of 29 properties containing 27 contributing primary buildings, one contributing site (cemetery), three contributing carriage houses and one non-contributing building in the historic core of the hamlet of Sherwood.  It encompasses the entire hamlet and includes several commercial / civic structures at the intersection of New York State Route 34B and Sherwod Road.  Most of the houses are one or two stories, of heavy timber frame construction and built between the 1820s and about 1910.  Located within the district are the separately listed Howland Cobblestone Store and Slocum and Hannah Howland House.  The structures commemorate the historical Quaker community's dedication to abolition, women's rights, and education."
+            }
+          ],
+          "answer": "Based on the provided sources:\n\nSanming is located in Fujian Province, China [Nanping], while Jiutai District is located in Jilin province, China [Jiutai_District]. More specifically, Jiutai is a district under the jurisdiction of Changchun, the capital of Jilin province [Jiutai_District], and Sanming is bordered by Nanping, a city in northwestern Fujian Province [Nanping].\n\nSo both cities are located in China, but in different provinces - Sanming in Fujian Province and Jiutai District in Jilin Province.",
+          "citations": [
+            "Nanping",
+            "Jiutai_District",
+            "Jiutai_District",
+            "Nanping"
+          ],
+          "abstained": false,
+          "latency_s": 1.5464270114898682,
+          "usage": {
+            "input_tokens": 882,
+            "output_tokens": 142,
+            "n_calls": 1
+          },
+          "intermediate": {}
+        },
+        "score": {
+          "csr": 0.0,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 4,
+          "verdicts": [
+            {
+              "claim": "Based on the provided sources:\n\nSanming is located in Fujian Province, China , while Jiutai District is located in Jilin province, China .",
+              "doc_id": "Nanping",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "Based on the provided sources:\n\nSanming is located in Fujian Province, China , while Jiutai District is located in Jilin province, China .",
+              "doc_id": "Jiutai_District",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "More specifically, Jiutai is a district under the jurisdiction of Changchun, the capital of Jilin province , and Sanming is bordered by Nanping, a city in northwestern Fujian Province .",
+              "doc_id": "Jiutai_District",
+              "verdict": "PARTIAL"
+            },
+            {
+              "claim": "More specifically, Jiutai is a district under the jurisdiction of Changchun, the capital of Jilin province , and Sanming is bordered by Nanping, a city in northwestern Fujian Province .",
+              "doc_id": "Nanping",
+              "verdict": "PARTIAL"
+            }
+          ]
+        }
+      },
+      "cove": {
+        "result": {
+          "question": "WHere are both Sanming and Jiutai District located?",
+          "retrieved": [
+            {
+              "doc_id": "Jiutai_District",
+              "text": "Jiutai () is a district under the jurisdiction of Changchun, the capital of Jilin province, People's Republic of China.  The district is surrounded by agricultural areas and is located around 50 km northeast of downtown Changchun.  Coal mining also is present in Jiutai.  It borders Dehui to the north, Erdao District to the southwest, Kuancheng District to the west, as well as the prefecture-level city of Jilin to the south and east."
+            },
+            {
+              "doc_id": "Kuancheng_District",
+              "text": "Kuancheng District () is one of six districts of Changchun, the capital of Jilin province, People's Republic of China.  It is part of Changchun's main urban area, located north of downtown.  It borders Dehui to the northeast, Jiutai to the east, Erdao District to the southeast, Nanguan and Chaoyang Districts to the south, Luyuan District to the southwest, and Nong'an County to the northwest."
+            },
+            {
+              "doc_id": "Nanping",
+              "text": "Nanping () is a third-tier prefecture-level city in northwestern Fujian Province, China.  It borders Ningde City to the east, Sanming City to the south, and the provinces of Zhejiang and Jiangxi to the north and west respectively.  Part of the famous Wuyi Mountains range is located in this prefecture.  Its population was 2,645,549 at the 2010 census whom 467,875 lived in the built-up (or metro) area made up of Yanping urban district."
+            },
+            {
+              "doc_id": "Dehui",
+              "text": "Dehui () is a county-level city under the jurisdiction of Changchun, the capital of Jilin province, People's Republic of China, located in the middle of the Songliao Plain.  It has a total population of 906,000 and a rural population of 753,000.  Composed of 10 towns, 4 townships and 4 subdistricts, under which there are 308 villages, it is around 80 km north-northeast of central Changchun.  It borders Yushu to the northeast, Jiutai to the south, Kuancheng District to the southwest, Nong'an County to the west, as well as the prefecture-level cities of Jilin to the southeast and Songyuan to the northwest."
+            },
+            {
+              "doc_id": "Sherwood_Equal_Rights_Historic_District",
+              "text": "Sherwood Equal Rights Historic District is a national historic district located at Sherwood in Cayuga County, New York.  The district consists of 29 properties containing 27 contributing primary buildings, one contributing site (cemetery), three contributing carriage houses and one non-contributing building in the historic core of the hamlet of Sherwood.  It encompasses the entire hamlet and includes several commercial / civic structures at the intersection of New York State Route 34B and Sherwod Road.  Most of the houses are one or two stories, of heavy timber frame construction and built between the 1820s and about 1910.  Located within the district are the separately listed Howland Cobblestone Store and Slocum and Hannah Howland House.  The structures commemorate the historical Quaker community's dedication to abolition, women's rights, and education."
+            }
+          ],
+          "answer": "Based on the verified claims provided:\n\nJiutai District is located in Jilin province [Jiutai_District], where it is a district under the jurisdiction of Changchun [Jiutai_District], the capital of Jilin province [Jiutai_District].\n\nSanming City is located in Fujian Province [Nanping].\n\nTherefore, Jiutai District is located in Jilin province, while Sanming City is located in Fujian Province \u2014 they are in two different provinces in China.",
+          "citations": [
+            "Jiutai_District",
+            "Jiutai_District",
+            "Jiutai_District",
+            "Nanping"
+          ],
+          "abstained": false,
+          "latency_s": 11.187296390533447,
+          "usage": {
+            "input_tokens": 2700,
+            "output_tokens": 789,
+            "n_calls": 10
+          },
+          "intermediate": {
+            "draft": "Based on the provided sources, Sanming and Jiutai District are located in different provinces in China.\n\nJiutai District is located in Jilin province [Jiutai_District], specifically as a district under the jurisdiction of Changchun, the capital of Jilin province [Jiutai_District].\n\nSanming City is located in Fujian Province [Nanping]. According to the sources, Sanming City borders Nanping, which is a prefecture-level city in northwestern Fujian Province [Nanping].\n\nSo while both are in China, they are in different provinces - Jiutai District is in Jilin province and Sanming is in Fujian Province.",
+            "verifications": [
+              {
+                "claim": "Sanming and Jiutai District are located in different provinces in China",
+                "cited": [],
+                "raw": "NOT_SUPPORTED\n\nNo evidence was provided to verify the claim about the provincial locations of Sanming and Jiutai District."
+              },
+              {
+                "claim": "Jiutai District is located in Jilin province",
+                "cited": [
+                  "Jiutai_District"
+                ],
+                "raw": "SUPPORTED\n\n\"Jiutai () is a district under the jurisdiction of Changchun, the capital of Jilin province, People's Republic of China.\""
+              },
+              {
+                "claim": "Jiutai District is a district under the jurisdiction of Changchun",
+                "cited": [
+                  "Jiutai_District"
+                ],
+                "raw": "SUPPORTED\n\n\"Jiutai () is a district under the jurisdiction of Changchun, the capital of Jilin province, People's Republic of China.\""
+              },
+              {
+                "claim": "Changchun is the capital of Jilin province",
+                "cited": [
+                  "Jiutai_District"
+                ],
+                "raw": "SUPPORTED\n\n\"Changchun, the capital of Jilin province\""
+              },
+              {
+                "claim": "Sanming City is located in Fujian Province",
+                "cited": [
+                  "Nanping"
+                ],
+                "raw": "SUPPORTED\n\n\"It borders Ningde City to the east, Sanming City to the south, and the provinces of Zhejiang and Jiangxi to the north and west respectively.\""
+              },
+              {
+                "claim": "Sanming City borders Nanping",
+                "cited": [
+                  "Nanping"
+                ],
+                "raw": "SUPPORTED\n\n\"It borders Ningde City to the east, Sanming City to the south\""
+              },
+              {
+                "claim": "Nanping is a prefecture-level city in northwestern Fujian Province",
+                "cited": [
+                  "Nanping"
+                ],
+                "raw": "SUPPORTED\n\n\"Nanping () is a third-tier prefecture-level city in northwestern Fujian Province, China.\""
+              }
+            ]
+          }
+        },
+        "score": {
+          "csr": 1.0,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 2,
+          "verdicts": [
+            {
+              "claim": "Based on the verified claims provided:\n\nJiutai District is located in Jilin province , where it is a district under the jurisdiction of Changchun , the capital of Jilin province .",
+              "doc_id": "Jiutai_District",
+              "verdict": "SUPPORTED"
+            },
+            {
+              "claim": "Sanming City is located in Fujian Province .",
+              "doc_id": "Nanping",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      },
+      "quote": {
+        "result": {
+          "question": "WHere are both Sanming and Jiutai District located?",
+          "retrieved": [
+            {
+              "doc_id": "Jiutai_District",
+              "text": "Jiutai () is a district under the jurisdiction of Changchun, the capital of Jilin province, People's Republic of China.  The district is surrounded by agricultural areas and is located around 50 km northeast of downtown Changchun.  Coal mining also is present in Jiutai.  It borders Dehui to the north, Erdao District to the southwest, Kuancheng District to the west, as well as the prefecture-level city of Jilin to the south and east."
+            },
+            {
+              "doc_id": "Kuancheng_District",
+              "text": "Kuancheng District () is one of six districts of Changchun, the capital of Jilin province, People's Republic of China.  It is part of Changchun's main urban area, located north of downtown.  It borders Dehui to the northeast, Jiutai to the east, Erdao District to the southeast, Nanguan and Chaoyang Districts to the south, Luyuan District to the southwest, and Nong'an County to the northwest."
+            },
+            {
+              "doc_id": "Nanping",
+              "text": "Nanping () is a third-tier prefecture-level city in northwestern Fujian Province, China.  It borders Ningde City to the east, Sanming City to the south, and the provinces of Zhejiang and Jiangxi to the north and west respectively.  Part of the famous Wuyi Mountains range is located in this prefecture.  Its population was 2,645,549 at the 2010 census whom 467,875 lived in the built-up (or metro) area made up of Yanping urban district."
+            },
+            {
+              "doc_id": "Dehui",
+              "text": "Dehui () is a county-level city under the jurisdiction of Changchun, the capital of Jilin province, People's Republic of China, located in the middle of the Songliao Plain.  It has a total population of 906,000 and a rural population of 753,000.  Composed of 10 towns, 4 townships and 4 subdistricts, under which there are 308 villages, it is around 80 km north-northeast of central Changchun.  It borders Yushu to the northeast, Jiutai to the south, Kuancheng District to the southwest, Nong'an County to the west, as well as the prefecture-level cities of Jilin to the southeast and Songyuan to the northwest."
+            },
+            {
+              "doc_id": "Sherwood_Equal_Rights_Historic_District",
+              "text": "Sherwood Equal Rights Historic District is a national historic district located at Sherwood in Cayuga County, New York.  The district consists of 29 properties containing 27 contributing primary buildings, one contributing site (cemetery), three contributing carriage houses and one non-contributing building in the historic core of the hamlet of Sherwood.  It encompasses the entire hamlet and includes several commercial / civic structures at the intersection of New York State Route 34B and Sherwod Road.  Most of the houses are one or two stories, of heavy timber frame construction and built between the 1820s and about 1910.  Located within the district are the separately listed Howland Cobblestone Store and Slocum and Hannah Howland House.  The structures commemorate the historical Quaker community's dedication to abolition, women's rights, and education."
+            }
+          ],
+          "answer": "Based on the provided sources:\n\nJiutai District is located in Jilin Province, China, under the jurisdiction of Changchun [Jiutai_District]. Sanming is mentioned in relation to Nanping, which is located in Fujian Province, China [Nanping].\n\nSo both are located in **China**, but in different provinces - Sanming in Fujian Province and Jiutai District in Jilin Province.",
+          "citations": [
+            "Jiutai_District",
+            "Nanping"
+          ],
+          "abstained": false,
+          "latency_s": 2.3234126567840576,
+          "usage": {
+            "input_tokens": 1912,
+            "output_tokens": 203,
+            "n_calls": 2
+          },
+          "intermediate": {
+            "draft": "Based on the provided sources:\n\nSanming is located in Fujian Province, China [Nanping]. Jiutai District is located in Jilin Province, China, under the jurisdiction of Changchun [Jiutai_District].\n\nSo both Sanming and Jiutai District are located in **China**, but in different provinces - Sanming in Fujian Province and Jiutai District in Jilin Province."
+          }
+        },
+        "score": {
+          "csr": 1.0,
+          "citation_precision": 1.0,
+          "abstained": false,
+          "n_citations": 2,
+          "verdicts": [
+            {
+              "claim": "Based on the provided sources:\n\nJiutai District is located in Jilin Province, China, under the jurisdiction of Changchun .",
+              "doc_id": "Jiutai_District",
+              "verdict": "SUPPORTED"
+            },
+            {
+              "claim": "Sanming is mentioned in relation to Nanping, which is located in Fujian Province, China .",
+              "doc_id": "Nanping",
+              "verdict": "SUPPORTED"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "qid": "ho_009",
+    "question": "What production company was founded by George Balanchine to create a live stage version of the 1942 film Casablanca?",
+    "hard_case": false,
+    "gold_answer": "The Los Angeles Dance Theater",
+    "modes": {
+      "baseline": {
+        "result": {
+          "question": "What production company was founded by George Balanchine to create a live stage version of the 1942 film Casablanca?",
+          "retrieved": [
+            {
+              "doc_id": "Los_Angeles_Dance_Theater",
+              "text": "The Los Angeles Dance Theater is a dance-oriented production company founded in 2003 by George Balanchine protege John Clifford.  The company was requested by Warner Bros.  Theatre Ventures, Inc., the live theatre division of Warner Bros.  Studios.  The company was founded for the purpose of creating a live-stage dance version of the film \"Casablanca\". \" \"Casablanca, The Dance\"\" premiered in Beijing, China on the 5th of April, 2005 at the 10,000 seat \"Great Hall of the People\" to sold-out audiences and standing ovations.  A projected world tour was cancelled when Warner Bros. ceased live theatre operations after the failure of their first Broadway musical, \"Lestat\".  Later, Warner Bros. restarted producing musicals, fueling rumors about the revival of the \"Casablanca, The Dance,\" world tour."
+            },
+            {
+              "doc_id": "American_Ballet",
+              "text": "The American Ballet was the first professional ballet company George Balanchine created in the United States.  The company was founded with the help of Lincoln Kirstein and Edward Warburg, managed by Alexander Merovitch and populated by students of Kirstein and Balanchine's School of American Ballet.  Having failed to mount a tour, American Ballet began performing at the \"Old Met.\"  After being allowed to stage only two dance performances (\"Orfeo and Eurydice\" in 1936 and an evening of dances choreographed to the music of Igor Stravinsky in 1937), Balanchine moved the company to Hollywood in 1938.  The company was restarted as the American Ballet Caravan and toured North and South America, although it too folded after several years."
+            },
+            {
+              "doc_id": "Too_Darn_Hot",
+              "text": "\"Too Darn Hot\" is a song written by Cole Porter for his musical \"Kiss Me, Kate\" (1948).  In the stage version, it is sung at the start of Act 2, and in the 1948 original Broadway production, it was sung by Lorenzo Fuller (as Paul) and Eddie Sledge and Fred Davis (as the specialty dancers), leading the full company.  In the 1953 MGM Hollywood film version, it is moved to a much earlier point, and it is sung by Ann Miller (as Lois Lane, Fred's new girlfriend, who is cast as Bianca).  The song does not really contribute to the plot in either the stage or film versions; in the stage version, the song represents the company of \"The Taming of the Shrew\" taking a break offstage during the intermission of their play; in the film version it allows the audience to see Lois's fun-loving, risk-taking nature, and gave Ann Miller a chance to show off her dancing skills, specifically tap.  The line 'According to the Kinsey report' (in the original stage production) was changed in the film version to 'According to the latest report'.  The song has also been covered by many artists."
+            },
+            {
+              "doc_id": "Les_Ballets_1933",
+              "text": "Les Ballets 1933 was a ballet company started by Boris Kochno and George Balanchine, which Balanchine used to create new works that were completely his own, set to music that no one had yet choreographed.  The company ran for less than four weeks in 1933 and tailored itself to small, wealthy audiences in Paris (the Th\u00e9\u00e2tre des Champs-\u00c9lys\u00e9es) and London (Savoy Theatre), but despite its scale, it came out with works that Balanchine later used to instruct at his School of American Ballet, and in the programs of his later companies.  Outside a theatre for Les Ballets, Balanchine first met Lincoln Kirstein."
+            },
+            {
+              "doc_id": "Gelsey_Kirkland",
+              "text": "Gelsey Kirkland (born December 29, 1952) is an American ballerina.  Kirkland joined the New York City Ballet in 1968 at age fifteen, at the invitation of George Balanchine.  She was promoted to soloist in 1969 and principal in 1972.  She went on to create leading roles in many of the great twentieth century ballets by Balanchine, Jerome Robbins, and Antony Tudor including Balanchine's revival of \"The Firebird\", Robbins' \"Goldberg Variations\", and Tudor's \"The Leaves are Fading\".  Balanchine re-choreographed his version of Stravinsky's \"The Firebird\" specifically for her.  She left the New York City Ballet to join the American Ballet Theatre in 1974."
+            }
+          ],
+          "answer": "I cannot answer from these sources. While the sources mention that the Los Angeles Dance Theater was founded by John Clifford (described as a George Balanchine protege) to create \"Casablanca, The Dance,\" the sources do not state that this company was founded by George Balanchine himself. The sources indicate that Balanchine founded or helped found other companies (American Ballet, Les Ballets 1933, and the School of American Ballet), but none of these were created to produce a stage version of Casablanca.",
+          "citations": [],
+          "abstained": false,
+          "latency_s": 2.0364112854003906,
+          "usage": {
+            "input_tokens": 1186,
+            "output_tokens": 118,
+            "n_calls": 1
+          },
+          "intermediate": {}
+        },
+        "score": {
+          "csr": null,
+          "citation_precision": null,
+          "abstained": false,
+          "n_citations": 0,
+          "verdicts": []
+        }
+      },
+      "cove": {
+        "result": {
+          "question": "What production company was founded by George Balanchine to create a live stage version of the 1942 film Casablanca?",
+          "retrieved": [
+            {
+              "doc_id": "Los_Angeles_Dance_Theater",
+              "text": "The Los Angeles Dance Theater is a dance-oriented production company founded in 2003 by George Balanchine protege John Clifford.  The company was requested by Warner Bros.  Theatre Ventures, Inc., the live theatre division of Warner Bros.  Studios.  The company was founded for the purpose of creating a live-stage dance version of the film \"Casablanca\". \" \"Casablanca, The Dance\"\" premiered in Beijing, China on the 5th of April, 2005 at the 10,000 seat \"Great Hall of the People\" to sold-out audiences and standing ovations.  A projected world tour was cancelled when Warner Bros. ceased live theatre operations after the failure of their first Broadway musical, \"Lestat\".  Later, Warner Bros. restarted producing musicals, fueling rumors about the revival of the \"Casablanca, The Dance,\" world tour."
+            },
+            {
+              "doc_id": "American_Ballet",
+              "text": "The American Ballet was the first professional ballet company George Balanchine created in the United States.  The company was founded with the help of Lincoln Kirstein and Edward Warburg, managed by Alexander Merovitch and populated by students of Kirstein and Balanchine's School of American Ballet.  Having failed to mount a tour, American Ballet began performing at the \"Old Met.\"  After being allowed to stage only two dance performances (\"Orfeo and Eurydice\" in 1936 and an evening of dances choreographed to the music of Igor Stravinsky in 1937), Balanchine moved the company to Hollywood in 1938.  The company was restarted as the American Ballet Caravan and toured North and South America, although it too folded after several years."
+            },
+            {
+              "doc_id": "Too_Darn_Hot",
+              "text": "\"Too Darn Hot\" is a song written by Cole Porter for his musical \"Kiss Me, Kate\" (1948).  In the stage version, it is sung at the start of Act 2, and in the 1948 original Broadway production, it was sung by Lorenzo Fuller (as Paul) and Eddie Sledge and Fred Davis (as the specialty dancers), leading the full company.  In the 1953 MGM Hollywood film version, it is moved to a much earlier point, and it is sung by Ann Miller (as Lois Lane, Fred's new girlfriend, who is cast as Bianca).  The song does not really contribute to the plot in either the stage or film versions; in the stage version, the song represents the company of \"The Taming of the Shrew\" taking a break offstage during the intermission of their play; in the film version it allows the audience to see Lois's fun-loving, risk-taking nature, and gave Ann Miller a chance to show off her dancing skills, specifically tap.  The line 'According to the Kinsey report' (in the original stage production) was changed in the film version to 'According to the latest report'.  The song has also been covered by many artists."
+            },
+            {
+              "doc_id": "Les_Ballets_1933",
+              "text": "Les Ballets 1933 was a ballet company started by Boris Kochno and George Balanchine, which Balanchine used to create new works that were completely his own, set to music that no one had yet choreographed.  The company ran for less than four weeks in 1933 and tailored itself to small, wealthy audiences in Paris (the Th\u00e9\u00e2tre des Champs-\u00c9lys\u00e9es) and London (Savoy Theatre), but despite its scale, it came out with works that Balanchine later used to instruct at his School of American Ballet, and in the programs of his later companies.  Outside a theatre for Les Ballets, Balanchine first met Lincoln Kirstein."
+            },
+            {
+              "doc_id": "Gelsey_Kirkland",
+              "text": "Gelsey Kirkland (born December 29, 1952) is an American ballerina.  Kirkland joined the New York City Ballet in 1968 at age fifteen, at the invitation of George Balanchine.  She was promoted to soloist in 1969 and principal in 1972.  She went on to create leading roles in many of the great twentieth century ballets by Balanchine, Jerome Robbins, and Antony Tudor including Balanchine's revival of \"The Firebird\", Robbins' \"Goldberg Variations\", and Tudor's \"The Leaves are Fading\".  Balanchine re-choreographed his version of Stravinsky's \"The Firebird\" specifically for her.  She left the New York City Ballet to join the American Ballet Theatre in 1974."
+            }
+          ],
+          "answer": "I cannot answer reliably from these sources.",
+          "citations": [],
+          "abstained": true,
+          "latency_s": 7.444432258605957,
+          "usage": {
+            "input_tokens": 1778,
+            "output_tokens": 384,
+            "n_calls": 7
+          },
+          "intermediate": {
+            "draft": "I cannot answer this question from the provided sources. While the sources mention that the Los Angeles Dance Theater was founded by John Clifford (described as a \"George Balanchine protege\") to create a live-stage dance version of \"Casablanca,\" the sources do not state that George Balanchine himself founded this company. Additionally, the sources do not specify the release year of the film \"Casablanca\" as 1942.",
+            "verifications": [
+              {
+                "claim": "The Los Angeles Dance Theater was founded by John Clifford",
+                "cited": [],
+                "raw": "NOT_SUPPORTED\nNo evidence was provided to verify or refute the claim."
+              },
+              {
+                "claim": "John Clifford was a George Balanchine protege",
+                "cited": [],
+                "raw": "NOT_SUPPORTED\nNo evidence was provided to evaluate the claim."
+              },
+              {
+                "claim": "The Los Angeles Dance Theater was created to make a live-stage dance version of Casablanca",
+                "cited": [],
+                "raw": "NOT_SUPPORTED\n\nNo evidence was provided to evaluate against the claim."
+              },
+              {
+                "claim": "George Balanchine did not found the Los Angeles Dance Theater",
+                "cited": [],
+                "raw": "NOT_SUPPORTED\n\nNo evidence was provided to verify this claim either way."
+              },
+              {
+                "claim": "The sources do not specify the release year of Casablanca as 1942",
+                "cited": [],
+                "raw": "NOT_SUPPORTED\n\nThe claim cannot be evaluated because no evidence was provided to analyze."
+              }
+            ]
+          }
+        },
+        "score": {
+          "csr": null,
+          "citation_precision": null,
+          "abstained": true,
+          "n_citations": 0,
+          "verdicts": []
+        }
+      },
+      "quote": {
+        "result": {
+          "question": "What production company was founded by George Balanchine to create a live stage version of the 1942 film Casablanca?",
+          "retrieved": [
+            {
+              "doc_id": "Los_Angeles_Dance_Theater",
+              "text": "The Los Angeles Dance Theater is a dance-oriented production company founded in 2003 by George Balanchine protege John Clifford.  The company was requested by Warner Bros.  Theatre Ventures, Inc., the live theatre division of Warner Bros.  Studios.  The company was founded for the purpose of creating a live-stage dance version of the film \"Casablanca\". \" \"Casablanca, The Dance\"\" premiered in Beijing, China on the 5th of April, 2005 at the 10,000 seat \"Great Hall of the People\" to sold-out audiences and standing ovations.  A projected world tour was cancelled when Warner Bros. ceased live theatre operations after the failure of their first Broadway musical, \"Lestat\".  Later, Warner Bros. restarted producing musicals, fueling rumors about the revival of the \"Casablanca, The Dance,\" world tour."
+            },
+            {
+              "doc_id": "American_Ballet",
+              "text": "The American Ballet was the first professional ballet company George Balanchine created in the United States.  The company was founded with the help of Lincoln Kirstein and Edward Warburg, managed by Alexander Merovitch and populated by students of Kirstein and Balanchine's School of American Ballet.  Having failed to mount a tour, American Ballet began performing at the \"Old Met.\"  After being allowed to stage only two dance performances (\"Orfeo and Eurydice\" in 1936 and an evening of dances choreographed to the music of Igor Stravinsky in 1937), Balanchine moved the company to Hollywood in 1938.  The company was restarted as the American Ballet Caravan and toured North and South America, although it too folded after several years."
+            },
+            {
+              "doc_id": "Too_Darn_Hot",
+              "text": "\"Too Darn Hot\" is a song written by Cole Porter for his musical \"Kiss Me, Kate\" (1948).  In the stage version, it is sung at the start of Act 2, and in the 1948 original Broadway production, it was sung by Lorenzo Fuller (as Paul) and Eddie Sledge and Fred Davis (as the specialty dancers), leading the full company.  In the 1953 MGM Hollywood film version, it is moved to a much earlier point, and it is sung by Ann Miller (as Lois Lane, Fred's new girlfriend, who is cast as Bianca).  The song does not really contribute to the plot in either the stage or film versions; in the stage version, the song represents the company of \"The Taming of the Shrew\" taking a break offstage during the intermission of their play; in the film version it allows the audience to see Lois's fun-loving, risk-taking nature, and gave Ann Miller a chance to show off her dancing skills, specifically tap.  The line 'According to the Kinsey report' (in the original stage production) was changed in the film version to 'According to the latest report'.  The song has also been covered by many artists."
+            },
+            {
+              "doc_id": "Les_Ballets_1933",
+              "text": "Les Ballets 1933 was a ballet company started by Boris Kochno and George Balanchine, which Balanchine used to create new works that were completely his own, set to music that no one had yet choreographed.  The company ran for less than four weeks in 1933 and tailored itself to small, wealthy audiences in Paris (the Th\u00e9\u00e2tre des Champs-\u00c9lys\u00e9es) and London (Savoy Theatre), but despite its scale, it came out with works that Balanchine later used to instruct at his School of American Ballet, and in the programs of his later companies.  Outside a theatre for Les Ballets, Balanchine first met Lincoln Kirstein."
+            },
+            {
+              "doc_id": "Gelsey_Kirkland",
+              "text": "Gelsey Kirkland (born December 29, 1952) is an American ballerina.  Kirkland joined the New York City Ballet in 1968 at age fifteen, at the invitation of George Balanchine.  She was promoted to soloist in 1969 and principal in 1972.  She went on to create leading roles in many of the great twentieth century ballets by Balanchine, Jerome Robbins, and Antony Tudor including Balanchine's revival of \"The Firebird\", Robbins' \"Goldberg Variations\", and Tudor's \"The Leaves are Fading\".  Balanchine re-choreographed his version of Stravinsky's \"The Firebird\" specifically for her.  She left the New York City Ballet to join the American Ballet Theatre in 1974."
+            }
+          ],
+          "answer": "I cannot answer from these sources.",
+          "citations": [],
+          "abstained": true,
+          "latency_s": 2.873886823654175,
+          "usage": {
+            "input_tokens": 2509,
+            "output_tokens": 114,
+            "n_calls": 2
+          },
+          "intermediate": {
+            "draft": "I cannot answer from these sources. While the sources mention that the Los Angeles Dance Theater was founded by John Clifford (described as a George Balanchine protege) to create a live-stage dance version of \"Casablanca,\" the sources do not state that George Balanchine himself founded this production company. The Los Angeles Dance Theater was founded in 2003 by John Clifford, not by Balanchine [Los_Angeles_Dance_Theater]."
+          }
+        },
+        "score": {
+          "csr": null,
+          "citation_precision": null,
+          "abstained": true,
+          "n_citations": 0,
+          "verdicts": []
+        }
+      }
+    }
+  }
+]
