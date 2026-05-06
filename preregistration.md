@@ -1,97 +1,80 @@
-# Pre-Registration: Citation Faithfulness in Retrieval-Augmented Generation
+# Pre-Registration: RAG Citation Faithfulness Experiment
 
-**Author:** [Your Name]
-**Course:** Trustworthy AI Final Project
-**Committed:** May 3, 2026 (BEFORE any system runs; commit hash will be recorded in the final report)
+**Mayur Patil | Committed May 3, 2026 before any API calls**
 
-> Every citation in this document was verified against ACL Anthology, arXiv, MIT Press, or the official court reporter on the date above. See `references.bib`.
+I'm writing this before running anything. The point is to lock my metric, my hypotheses, and the specific questions I think will be hard, so I can't change the rules after seeing the results. The commit hash of this file is my proof.
 
-## 1. Domain and Failure Mode
+---
 
-Retrieval-Augmented Generation systems are deployed in legal research (Westlaw AI, Harvey), clinical question answering, journalism, and customer support. They are marketed as "grounded" because each answer cites retrieved source documents. The trust failure mode I care about is citation infidelity, where the model produces an answer with inline citations of the form `[doc_id]` but the cited passages do not actually support the claim. This includes three sub-cases: hallucinated citations to non-existent documents, misattribution where the right document is cited but for the wrong claim, and overgeneralization beyond what the source actually says (Rashkin et al., 2023; Gao et al., 2023).
+## The problem I'm testing
 
-**Who is harmed.** Users who treat citations as a verification shortcut, which is exactly the population RAG products are sold to. *Mata v. Avianca, Inc.*, 678 F. Supp. 3d 443 (S.D.N.Y. 2023) is the canonical illustration. An attorney filed a brief with citations fabricated by ChatGPT, the court could not locate the cases, and the attorneys were sanctioned $5,000 each for proceeding in subjective bad faith. Even when the underlying model is competent, the *presence* of citations creates a false sense of groundedness, which I will call source-washing for short. Hallucination remains an open problem in NLG broadly (Ji et al., 2023).
+RAG systems are supposed to be "grounded" because they cite retrieved documents. My question is whether the citations are actually faithful — whether the cited document really supports the claim attached to it. I think the baseline will fail on this more than people expect, and I want to test whether two simple verifiers can fix it.
 
-**Acceptable error rate.** Unlike Netflix recommendations, citation faithfulness in legal, medical, and journalistic contexts should be near saturated. Users cannot easily verify each citation, so the failure mode I am measuring is exactly the case where the user trusts the system because it cites a source. I pre-commit to treating below 95% citation-supported as failing the trust threshold for these domains.
+## The metric: Citation Support Rate (CSR)
 
-## 2. System Under Test
+For each answer the model produces, I split it into sentence-level cited claims. For every (claim, cited chunk) pair, a judge model scores it as one of:
+- SUPPORTED: the chunk literally supports the claim
+- PARTIAL: the chunk is related but the claim goes beyond what the chunk says
+- UNSUPPORTED: the chunk doesn't back up the claim
+- CONTRADICTED: the chunk says something opposite
 
-**Baseline RAG pipeline.**
-- Retriever: BM25 over a fixed corpus of Wikipedia paragraphs assembled from HotpotQA distractor contexts (Yang et al., 2018), roughly 5k to 10k paragraphs.
-- Generator: GPT-4o-mini *or* Claude Haiku 4.5, decided once, locked, and recorded in `config.json`.
-- Top-k = 5 retrieved chunks per query.
-- Prompt instructs inline citations `[doc_id]` after every factual claim.
+CSR = number of SUPPORTED pairs / total cited pairs.
 
-**Evaluation set.** 50 questions sampled from HotpotQA dev, multi-hop, requiring synthesis of two or more documents. 10 additional held-out qualitative questions, manually inspected only AFTER the quantitative numbers are locked.
+Only SUPPORTED counts. PARTIAL is not a pass.
 
-**Why HotpotQA.** Multi-hop questions force the model to combine evidence from at least two documents. That is the regime where citation infidelity is most damaging and most measurable, because there is no single chunk you can copy and paste from.
+I'm also tracking citation precision (did the cited doc_id actually appear in the retrieved set?) separately, because hallucinated doc_ids are a different failure mode.
 
-## 3. Trust Metric
+If a question gets answered with no citations at all, it doesn't contribute to CSR but it counts against coverage.
 
-**Primary metric: Citation Support Rate (CSR).** This is a citation-grounded specialization of FActScore (Min et al., 2023) and the AIS framework (Rashkin et al., 2023).
+**Why this maps to trust:** citations are what users rely on to decide whether to trust an answer. If the citations are unreliable, the model is manufacturing false confidence. For legal or medical use I'd set the bar at 95% or above. The whole point of this experiment is to measure how far below that bar the baseline is and whether verifiers can close the gap.
 
-For each generated answer I segment into atomic cited claims, defined as sentence-level units that contain at least one inline citation. For each (claim, cited_chunk) pair, an independent LLM judge returns one of {SUPPORTED, PARTIAL, UNSUPPORTED, CONTRADICTED}. I treat only SUPPORTED as supported. PARTIAL and below count as unsupported.
+## System setup
 
-```
-CSR = (# claim chunk pairs judged SUPPORTED) / (# total claim chunk pairs)
-```
+- Retriever: BM25 over 600 Wikipedia paragraphs from HotpotQA distractor validation set
+- Generator: claude-haiku-4-5
+- Judge: claude-opus-4-7 (different model family to reduce self-preference)
+- Top-5 chunks per question
+- 50 eval questions from HotpotQA dev + 5 hard cases below
+- 10 held-out questions that I won't look at until after the main eval is done
 
-**Secondary metrics.**
-- Citation precision: of all citations emitted, the fraction whose `doc_id` actually appears in the top-k retrieved set. This catches hallucinated `doc_id`s.
-- Coverage: fraction of questions where the system produces a non-abstaining answer.
-- Answer correctness (Exact-Match and token-F1) against the gold short answer. Sanity check, so the system cannot game CSR by saying nothing useful.
-- Trust tax: wall-clock latency, total LLM tokens used, and total USD cost.
+## The two interventions I'm testing
 
-**Why CSR maps to trust.** Users of RAG systems report that citations are the primary signal they use to decide whether to trust an answer. If CSR is low, the citation signal is anti-informative. That is worse than no citations at all, because it manufactures confidence (Rashkin et al., 2023; Gao et al., 2023).
+**Chain-of-Verification (CoVe):** after the baseline produces a draft, decompose it into atomic claims with their cited doc_ids, verify each claim against its cited chunk, drop the ones that fail. Based on Dhuliawala et al. 2024.
 
-**Judge validation.** Before evaluation, I will hand-label 30 random (claim, chunk) pairs drawn from a *pilot* baseline run, and compare against the LLM judge. I require at least 85% agreement (Cohen's kappa of at least 0.6) before trusting the judge. If agreement is low, I will iterate on the judge prompt using only the pilot pairs, then re-validate on a fresh 20 pairs. The judge prompt is then frozen for the main evaluation. The judge model differs from the generator model to reduce self-preference bias.
+**Quote-then-cite:** one follow-up call that asks the model to find a verbatim span of 25 words or fewer in each cited chunk for each claim. If it can't find the span, drop the claim. My own prompt design, loosely inspired by Self-RAG (Asai et al. 2024).
 
-**Statistical analysis.** CSR is reported with 95% bootstrap confidence intervals (n=10,000 resamples over questions). Differences between conditions are tested via paired bootstrap on the subset of questions where both conditions produced citations.
+## My hypotheses (locked before running)
 
-## 4. Pre-Registered Hard Cases
+H1: Both interventions improve CSR by at least 5 percentage points absolute.
 
-I predict the **baseline** will fail on at least three of these five cases. Cases written before any runs:
+H2: CoVe improves CSR more than quote-then-cite but at higher latency cost.
 
-1. **Multi-hop numeric (`hard_01_numeric`).** "What is the difference in population between the largest cities of [country A] and [country B]?" Predicted failure: model emits one citation for both populations, or fabricates the arithmetic without citing.
-2. **Negation (`hard_02_negation`).** "Which of the following is NOT a noble gas: argon, nitrogen, neon, krypton?" Predicted failure: model cites a doc that mentions the compound positively without confirming the negative.
-3. **Entity collision (`hard_03_entity_collision`).** Question about Michael I. Jordan (UC Berkeley statistician) when basketball-player chunks are also retrieved. Predicted failure: model cites basketball-player chunks for statistician facts.
-4. **Temporal staleness (`hard_04_temporal`).** A claim about a "current" CEO when the retrieved doc is dated 2019. Predicted failure: model presents stale fact as current with confident citation.
-5. **Aggregation across docs (`hard_05_aggregation`).** "List every winner of [award] from 2010 through 2015." Predicted failure: citations cluster on one doc that lists some winners; model fabricates others without citation or with a wrong citation.
+H3: Both interventions reduce coverage by at least 10 percentage points (some questions become abstentions).
 
-I commit to reporting baseline performance per hard case before applying any intervention.
+I'm committing to reporting negative results. If CoVe doesn't improve CSR, that's the result, not a footnote.
 
-## 5. Interventions
+## The 5 hard cases I predict the baseline will fail on
 
-I evaluate three interventions of increasing cost. This is more ambitious than a single CoVe replication, and it lets me draw a faithfulness versus cost Pareto curve rather than reporting a single point estimate.
+I'm predicting the baseline fails on at least 3 of these 5. "Fail" means CSR=None (no citations) or CSR=0.0.
 
-**Intervention A: CoVe (citation-grounded variant).** Adapted from Dhuliawala et al. (2024). After the baseline draft:
-1. *Decompose.* The generator lists each cited claim as an atomic statement with its cited chunk(s).
-2. *Verify.* For each (claim, chunk), the model is prompted "Does this chunk *literally* support this claim? Quote the supporting span verbatim, or say NOT_SUPPORTED."
-3. *Revise.* Claims that fail verification are dropped. If the answer becomes empty, the system abstains.
+**hard_01 (multi-hop numeric):** "What is the population difference between the largest cities of Australia and New Zealand?"
+Predicted failure: the model will need to pull numbers from two different chunks and do arithmetic. I expect it to cite one chunk for both numbers, or cite neither.
 
-**Intervention B: NLI verifier (lightweight).** A pretrained Natural Language Inference model (`microsoft/deberta-v3-large-mnli`) scores each (chunk, claim) pair as ENTAILMENT, NEUTRAL, or CONTRADICTION. Claims with ENTAILMENT probability below 0.5 are dropped. This is the cheapest intervention. One local forward pass per claim, no extra LLM calls.
+**hard_02 (negation):** "Which of argon, nitrogen, neon, krypton is NOT a noble gas?"
+Predicted failure: every chunk confirms that argon/neon/krypton ARE noble gases. None say "nitrogen is NOT a noble gas." The model will struggle to cite support for a negation.
 
-**Intervention C: Quote-then-cite re-prompting.** The generator is re-prompted with: "For every claim in your previous answer, quote the exact span of the cited chunk verbatim (at most 25 words). If you cannot find such a span, drop the claim." This is closest in spirit to Self-RAG's reflection tokens (Asai et al., 2024) without finetuning.
+**hard_03 (entity collision):** "What university does statistician Michael I. Jordan teach at?"
+Predicted failure: my corpus has chunks about Michael Jordan the basketball player. I expect the model to either get confused or cite basketball-player chunks for statistician facts.
 
-**Hypotheses (pre-committed):**
-- H1: All three interventions improve CSR by at least 5 percentage points absolute.
-- H2: CoVe improves CSR more than NLI but at roughly 3x the latency.
-- H3: NLI strictly Pareto-dominates Quote-then-cite (cheaper *and* at least as faithful).
-- H4: All interventions reduce coverage by at least 10 points, because hard questions become abstentions.
-- Negative results on any hypothesis are reported as primary findings, not buried.
+**hard_04 (temporal staleness):** "Who is the current CEO of Twitter?"
+Predicted failure: the Wikipedia chunk I have is from 2019. The model will confidently cite a stale fact as current.
 
-## 6. Trust Tax (Pre-Identified)
+**hard_05 (aggregation):** "List every Turing Award winner from 2015 to 2018."
+Predicted failure: no single chunk has all four years. The model will get partial lists from one chunk and fabricate the rest without citation.
 
-- **Latency.** CoVe and Quote-then-cite each add 2 to 4 times more LLM calls per query. NLI adds roughly 50 ms per claim on a single GPU.
-- **Cost.** Linear in number of cited claims for the LLM-based interventions. Expected 3 to 5 times cost increase for CoVe.
-- **Coverage.** All interventions can abstain. Users who need *any* answer may rationally prefer the unfaithful baseline. Coverage is reported as a first-class metric.
-- **False reassurance.** If CSR rises but the held-out qualitative set reveals new failure modes (the model verifies its own bad reasoning), the reported gains overstate trust. The qualitative pass exists exactly to catch this.
-- **Corpus-bound faithfulness.** CSR measures fidelity to *retrieved text*, not to ground truth. If the corpus is wrong, high CSR is high faithfulness to wrong information. This is the most important caveat in the project.
-- **Who remains unprotected.** Users who do not click citations. Users in domains where retrieval is incomplete. Non-English contexts (the evaluation is English only).
+## Stopping rules
 
-## 7. Stopping Rules
-
-- Sample size: 50 evaluation questions plus 10 held-out. **No expansion after seeing results.**
-- Judge prompt frozen at the end of validation (Section 3). No mid-experiment edits.
-- Hard cases scored separately and reported regardless of the aggregate result.
-- Code, prompts, and configs are committed to git before any evaluation run; the final report cites the commit hash.
+- Sample size locked at 50 + 10 held-out. No expanding after seeing results.
+- Judge prompt frozen after pilot validation. No changes mid-experiment.
+- Hard cases reported regardless of aggregate result, even if every single one passes.
+- Code and prompts committed to git before the first eval run.
